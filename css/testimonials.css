@@ -1,0 +1,52 @@
+.line{
+	height:3px;
+	width:10%;
+	background-color:#c7a17a;
+	margin: auto;
+}
+.testimonials__text{
+	text-align: center;
+	font-style:italic;
+	color:#c7a17a;
+	font-size: 24px;
+	font-family: 'Satisfy', cursive;
+	line-height: 24px;
+}
+.testimonials__title{
+	text-align: center;
+	font-size:inherit;
+	font-family: 'Bebas Neue', cursive;
+	font-weight: 300;
+	font-size: 58px;
+	line-height: 63.8px;
+}
+.testimonials__subtitle{
+	text-align: center;
+	color: rgb(91,91,91);
+	font-size: 19px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+}
+.item__decoration{
+	font-family: 'Roboto', sans-serif;
+}
+.item__name{
+	font-family: 'Bebas Neue', cursive;
+	font-size: 28px;
+}
+.item__role{
+	font-family: 'Roboto', sans-serif;
+	color: rgba(39, 41, 43, 0.8);
+	font-style: italic;
+	line-height: 25.05px;
+}
+.item__citation{
+	color: rgb(130, 130, 130);
+	font-family: 'Roboto', sans-serif;
+	line-height: 25.5px;
+}
+.item__date{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	color: rgb(199, 161, 122);
+}
