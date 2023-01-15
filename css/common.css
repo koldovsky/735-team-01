@@ -8,11 +8,11 @@
 }
 
 :root {
-    --light-brown-color:#c7a17a;
+    --overtitle-color:#c7a17a;
 }
 
 .overtitle{
-color: var(--light-brown-color);
+color: var(--overtitle-color);
 font-family:'Satisfy',undefined;
 font-size: 26px;
 }
