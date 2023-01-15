@@ -3,3 +3,14 @@
     color: #c7a17a;
     font-size: 15px;
 }
+.features__remember{
+    font-size:inherit; 
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+    font-weight: 300; 
+    font-size: 30px;
+}
+.features__divider{
+    height:3px;
+    width:10%;
+    background-color:#c7a17a
+}
