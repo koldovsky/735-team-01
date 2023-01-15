@@ -8,11 +8,18 @@
 }
 
 :root {
-    --overtitle-color:#c7a17a;
+    --main-title-color: rgb(255, 255, 255);
+    --overtitle-color: #c7a17a;
 }
 
-.overtitle{
-color: var(--overtitle-color);
-font-family:'Satisfy',undefined;
-font-size: 26px;
+.overtitle {
+    color: var(--overtitle-color);
+    font-family: 'Satisfy', undefined;
+    font-size: 26px;
+}
+
+h2 {
+    font-family: "Bebas Neue", cursive;
+    font-size: 38px;
+    font-weight: 400;
 }
