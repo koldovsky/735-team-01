@@ -1,5 +1,8 @@
- .header__overtitle{
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+.header__overtitle {
+    font-family: 'Satisfy', cursive;
     font-size: 24px;
     text-align: center;
     color: var(--text-color);
- }
+}
