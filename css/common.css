@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Satisfy&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --light-brown-color:#c7a17a;
+}
+
+.overtitle{
+color: var(--light-brown-color);
+font-family:'Satisfy',undefined;
+font-size: 26px;
+}
