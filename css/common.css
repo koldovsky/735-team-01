@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
 
 * {
     margin: 0;
@@ -10,6 +12,10 @@
 :root {
     --main-title-color: rgb(255, 255, 255);
     --overtitle-color: #c7a17a;
+    --title-color: rgb(39, 41, 43);
+    --button-text-color:  rgb(255, 255, 255);
+    font-family: 'Roboto', sans-serif;
+
 }
 
 .overtitle {
@@ -22,4 +28,11 @@ h2 {
     font-family: "Bebas Neue", cursive;
     font-size: 38px;
     font-weight: 400;
+}
+
+.button{
+font-size: 15px;  
+font-family:'Roboto',sans-serif;
+font-weight:500;
+color:var(--button-text-color);  
 }

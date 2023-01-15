@@ -1,3 +1,28 @@
-.recipes__title{
-color:rgb(39,41,43);   
+.recipes{
+    background-color:#f2f0ec;
+}
+
+.recipes__subtitle {
+    color: rgb(91, 91, 91);
+    font-size: 19px;
+    font-weight: 500;
+}
+
+.recipes__text{
+color:rgb(130,130,130);
+font-size:17px;
+font-weight:400;
+}
+
+.recipes__recipe-name{
+color:white; 
+font-size: 28px;
+font-family:"Bebas Neue", cursive;
+font-weight:400;
+
+}
+.recipes__recipe-text{
+    color:rgb(230,230,230); 
+    font-size: 17px;
+    font-weight:400;
 }
