@@ -35,3 +35,9 @@
 .list_description-thirditem{
     color: rgb(130,130,130);
 }
+@media(min-width:400px){
+    .list-items{
+        display:flex;
+        flex-direction:column;
+    }
+}
