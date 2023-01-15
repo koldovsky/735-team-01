@@ -1,5 +1,6 @@
 .header__overtitle {
     font-size: 24px;
     text-align: center;
-    color: var(--text-color);
+    color: var(--light-brown-color);
+    font-family: 'Satisfy', cursive;
 }
