@@ -12,5 +12,26 @@
 .features__divider{
     height:3px;
     width:10%;
-    background-color:#c7a17a
+    background-color:#c7a17a;
+}
+.features__things{
+    color: rgb(91,91,91);
+}
+.list_firstheading{
+    font-weight: 600;
+}
+.list_description-firstitem{
+    color: rgb(130,130,130);
+}
+.list_secondheading{
+    font-weight:600;
+}
+.list_description-seconditem{
+    color: rgb(130,130,130);
+}
+.list_thirdheading{
+    font-weight:600;
+}
+.list_description-thirditem{
+    color: rgb(130,130,130);
 }
