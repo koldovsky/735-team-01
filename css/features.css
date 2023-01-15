@@ -38,6 +38,7 @@
 @media(min-width:400px){
     .list-items{
         display:flex;
-        flex-direction:column;
+        flex-direction:row;
+        align-self:center;
     }
 }
