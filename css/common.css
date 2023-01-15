@@ -14,6 +14,7 @@
     --overtitle-color: #c7a17a;
     --title-color: rgb(39, 41, 43);
     --button-text-color:  rgb(255, 255, 255);
+    --button-background-color:#c7a17a;
     font-family: 'Roboto', sans-serif;
 
 }
@@ -35,4 +36,6 @@ font-size: 15px;
 font-family:'Roboto',sans-serif;
 font-weight:500;
 color:var(--button-text-color);  
+text-decoration:none;
+background-color:var(--button-background-color);
 }
