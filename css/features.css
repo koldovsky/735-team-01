@@ -1,7 +1,7 @@
 .features__features{
     font-family:'Satisfy', cursive;
     font-style: italic;
-    color: #c7a17a;
+    color: var(--overtitle-color);
     font-size: 24px;
     line-height:24px;
 }
@@ -18,37 +18,38 @@
     background-color:#c7a17a;
 }
 .features__things{
-    color: rgb(91,91,91);
+    color: var(--dark-subtitle-color);
 }
+
 .list_firstheading{
     font-weight: 600;
 }
 .list_description-firstitem{
-    color: rgb(130,130,130);
+    color: var(--dark-text-color);
 }
 .list_secondheading{
     font-weight:600;
 }
 .list_description-seconditem{
-    color: rgb(130,130,130);
+    color: var(--dark-text-color);
 }
 .list_thirdheading{
     font-weight:600;
 }
 .list_description-thirditem{
-    color: rgb(130,130,130);
+    color: var(--dark-text-color);
 }
 
 .list-items{
     display: flex;
-    flex-direction: column;
     flex-wrap: nowrap;
     align-content: normal;
     justify-content: center;
     align-items: normal;
 }
 .features__image-barista{
-    background: linear-gradient(rgba(255,255,255,0)) url(../img/continent.webp);
-    background-size: contain;
-    background-position: 50% 50%;
+    background-image: url(../img/continent.webp);
+    background-size: cover;
+    background-position: center;
+    margin: auto;
 }
