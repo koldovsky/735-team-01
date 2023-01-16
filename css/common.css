@@ -10,15 +10,6 @@
 }
 
 :root {
-    --light-brown-color: #c7a17a;
-    --text-satisfy: 'Satisfy', cursive;
-    --text-bebas: 'Bebas Neue', cursive;
-}
-
-.overtitle {
-    color: var(--light-brown-color);
-    font-family: 'Satisfy', undefined;
-    font-size: 26px;
     --main-title-color: rgb(255, 255, 255);
     --overtitle-color: #c7a17a;
     --title-color: rgb(39, 41, 43);
@@ -41,9 +32,10 @@ h2 {
     font-weight: 400;
 }
 
-/*Ширина розділювача збільшується кожен раз при збільшенні ширини екрану,тому потрібно буде ше побавитись з цим*/
+
 .divider {
     height: 3px;
+    width:10%;
     background-color: var(--divider-color);
 }
 
