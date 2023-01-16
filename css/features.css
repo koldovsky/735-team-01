@@ -42,14 +42,14 @@
 
 .list-items{
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     align-content: normal;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: normal;
 }
 .features__image-barista{
     background-image: url(../img/continent.webp);
     background-size: cover;
-    background-position: center;
+    background-position: right;
     margin: auto;
 }
