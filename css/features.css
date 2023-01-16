@@ -1,13 +1,12 @@
 .features__features{
+    font-family:'Satisfy', cursive;
     font-style: italic;
     color: #c7a17a;
     font-size: 24px;
-    font-family:'Satisfy', cursive;
     line-height:24px;
 }
 .features__remember{
     font-size:inherit; 
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
     font-weight: 300; 
     font-size: 58 px;
     font-family:'Bebas Neue', cursive;
@@ -45,4 +44,12 @@
         flex-direction:row;
         align-self:center;
     }
+}
+.list-items{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: normal;
+    justify-content: center;
+    align-items: normal;
 }

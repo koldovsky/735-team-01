@@ -1,0 +1,53 @@
+.header {
+    background-image: url(../img/logo-coffee.png);
+    background-size: cover;
+    background-position: center;
+    min-height: 938px;
+    margin: auto;
+}
+.header__nav {
+    display: flex;
+}
+
+.header__logo {
+    line-height: 16px;
+}
+
+.social-icons__icon {
+}
+
+.header__overtitle {
+    font-size: 24px;
+    text-align: center;
+    text-transform: none;
+    color: var(--overtitle-color);
+    font-family: 'Satisfy', cursive;
+}
+
+.header__title {
+    font-size: 62px;
+    text-align: center;
+    color: var(--button-text-color);
+    font-family: 'Bebas Neue', cursive;
+    text-transform: uppercase;
+}
+
+.header_text {
+    font-size: 19px;
+    text-align: center;
+    color: var(--button-text-color);
+    font-family: 'Roboto', sans-serif;
+}
+
+@media (min-width: 990px) {
+    .header__nav {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        flex: 1;
+    }
+}
+
+.header__banner {
+    text-align: center;
+}
