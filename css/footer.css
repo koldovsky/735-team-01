@@ -1,0 +1,19 @@
+.footer {
+    background-color: var(--title-color);
+}
+
+.application__left-side {
+    box-sizing: border-box;
+}
+
+.contact__subtitle {
+    color: var(--overtitle-color);
+    font-family: Satisfy, undefined;
+    font-size: 26px;
+}
+
+.contact__title {
+    color: rgb(255, 255, 255);
+    font-family: 'Bebas neue', cursive;
+    font-size: 38px;
+}
