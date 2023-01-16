@@ -13,8 +13,9 @@
     --main-title-color: rgb(255, 255, 255);
     --overtitle-color: #c7a17a;
     --title-color: rgb(39, 41, 43);
-    --button-text-color:  rgb(255, 255, 255);
-    --button-background-color:#c7a17a;
+    --button-text-color: rgb(255, 255, 255);
+    --button-background-color: #c7a17a;
+    --divider-color: #c7a17a;
     font-family: 'Roboto', sans-serif;
 
 }
@@ -31,12 +32,18 @@ h2 {
     font-weight: 400;
 }
 
-.button{
-font-size: 15px;  
-font-family:'Roboto',sans-serif;
-font-weight:500;
-color:var(--button-text-color);  
-text-decoration:none;
-background-color:var(--button-background-color);
-text-align:center;
+/*Ширина розділювача збільшується кожен раз при збільшенні ширини екрану,тому потрібно буде ше побавитись з цим*/
+.divider {
+    height: 3px;
+    background-color: var(--divider-color);
+}
+
+.button {
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: var(--button-text-color);
+    text-decoration: none;
+    background-color: var(--button-background-color);
+    text-align: center;
 }
