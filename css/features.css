@@ -75,5 +75,7 @@
 }
 .features__block{
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    flex-flow: column wrap;
+    align-content: space-between;
 }
