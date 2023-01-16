@@ -1,27 +1,32 @@
 .recipes {
-    background-color: #f2f0ec;
+    background-color: var(--light-background-color);
     padding-top: 90px;
     padding-bottom: 90px;
 }
+
+.recipes__title {
+    color: var(--title-color);
+}
+
 /*
 .recipes__divider {
     
 }
 */
 .recipes__subtitle {
-    color: rgb(91, 91, 91);
+    color: var(--dark-subtitle-color);
     font-size: 19px;
     font-weight: 500;
 }
 
 .recipes__text {
-    color: rgb(130, 130, 130);
+    color: var(--dark-text-color);
     font-size: 17px;
     font-weight: 400;
 }
 
 .recipes__recipe-name {
-    color: white;
+    color: var(--light-title-color);
     font-size: 28px;
     font-family: "Bebas Neue", cursive;
     font-weight: 400;
@@ -29,7 +34,7 @@
 }
 
 .recipes__recipe-text {
-    color: rgb(230, 230, 230);
+    color: var(--light-text-color);
     font-size: 17px;
     font-weight: 400;
 }
@@ -40,12 +45,10 @@
 }
 */
 .recipes__latte {
-    background-image: url(../img/recipes-latte.png);
     background: linear-gradient(rgba(39, 41, 43, 0.84), rgba(39, 41, 43, 0.84)), url(../img/recipes-latte.png);
 }
 
 .recipes__cheese-dessert {
-    background-image: url(../img/recipes-cheese-dessert.png);
     background: linear-gradient(rgba(39, 41, 43, 0.84), rgba(39, 41, 43, 0.84)), url(../img/recipes-cheese-dessert.png);
 }
 
