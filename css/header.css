@@ -1,6 +1,26 @@
+.header__logo-link {
+    font-size: 16px;
+
+}
+
 .header__overtitle {
     font-size: 24px;
     text-align: center;
     color: var(--light-brown-color);
-    font-family: 'Satisfy', cursive;
+    font-family: 'Bebas Neue', cursive;
 }
+
+.header__title {
+    font-size: 62px;
+    text-align: center;
+    color: var(--button-text-color);
+    font-family: 'Bebas Neue', cursive;
+}
+
+.header_text {
+    font-size: 19px;
+    text-align: center;
+    color: var(--button-text-color);
+    font-family: 'Bebas Neue', cursive;
+}
+
