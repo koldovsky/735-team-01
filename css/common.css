@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
 
 * {
     margin: 0;
@@ -17,4 +19,40 @@
     color: var(--light-brown-color);
     font-family: 'Satisfy', undefined;
     font-size: 26px;
+    --main-title-color: rgb(255, 255, 255);
+    --overtitle-color: #c7a17a;
+    --title-color: rgb(39, 41, 43);
+    --button-text-color: rgb(255, 255, 255);
+    --button-background-color: #c7a17a;
+    --divider-color: #c7a17a;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.overtitle {
+    color: var(--overtitle-color);
+    font-family: 'Satisfy', undefined;
+    font-size: 26px;
+}
+
+h2 {
+    font-family: "Bebas Neue", cursive;
+    font-size: 38px;
+    font-weight: 400;
+}
+
+/*Ширина розділювача збільшується кожен раз при збільшенні ширини екрану,тому потрібно буде ше побавитись з цим*/
+.divider {
+    height: 3px;
+    background-color: var(--divider-color);
+}
+
+.button {
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: var(--button-text-color);
+    text-decoration: none;
+    background-color: var(--button-background-color);
+    text-align: center;
 }
