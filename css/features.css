@@ -73,3 +73,7 @@
     background-position: center;
     margin: auto;
 }
+.features__block{
+    display: flex;
+    flex-direction: column;
+}
