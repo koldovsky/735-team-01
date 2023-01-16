@@ -10,15 +10,6 @@
 }
 
 :root {
-    --light-brown-color: #c7a17a;
-    --text-satisfy: 'Satisfy', cursive;
-    --text-bebas: 'Bebas Neue', cursive;
-}
-
-.overtitle {
-    color: var(--light-brown-color);
-    font-family: 'Satisfy', undefined;
-    font-size: 26px;
     --main-title-color: rgb(255, 255, 255);
     --overtitle-color: #c7a17a;
     --title-color: rgb(39, 41, 43);
@@ -40,6 +31,7 @@ h2 {
     font-size: 38px;
     font-weight: 400;
 }
+
 
 .divider {
     height: 3px;
