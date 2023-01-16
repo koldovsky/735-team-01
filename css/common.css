@@ -8,11 +8,13 @@
 }
 
 :root {
-    --light-brown-color:#c7a17a;
+    --light-brown-color: #c7a17a;
+    --text-satisfy: 'Satisfy', cursive;
+    --text-bebas: 'Bebas Neue', cursive;
 }
 
-.overtitle{
-color: var(--light-brown-color);
-font-family:'Satisfy',undefined;
-font-size: 26px;
+.overtitle {
+    color: var(--light-brown-color);
+    font-family: 'Satisfy', undefined;
+    font-size: 26px;
 }
