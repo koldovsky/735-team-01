@@ -40,7 +40,21 @@
     color: var(--dark-text-color);
 }
 
-.list-items{
+.list__item-one{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: normal;
+    justify-content: center;
+}
+.list__item-two{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: normal;
+    justify-content: center;
+}
+.list__item-three{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
