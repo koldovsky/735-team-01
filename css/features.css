@@ -47,3 +47,8 @@
     justify-content: center;
     align-items: normal;
 }
+.features__image-barista{
+    background: linear-gradient(rgba(255,255,255,0)) url(../img/continent.webp);
+    background-size: contain;
+    background-position: 50% 50%;
+}
