@@ -42,6 +42,7 @@
 
 .list-items{
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
     align-content: normal;
     justify-content: flex-end;
@@ -50,6 +51,6 @@
 .features__image-barista{
     background-image: url(../img/continent.webp);
     background-size: cover;
-    background-position: right;
+    background-position: bottom;
     margin: auto;
 }
