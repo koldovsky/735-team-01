@@ -1,9 +1,19 @@
+.header {
+    background-image: url(../img/logo-coffee.png);
+    background-size: cover;
+    background-position: center;
+    min-height: 938px;
+    margin: auto;
+}
 .header__nav {
     display: flex;
 }
 
 .header__logo {
     line-height: 16px;
+}
+
+.social-icons__icon {
 }
 
 .header__overtitle {
@@ -39,12 +49,5 @@
 }
 
 .header__banner {
-    background-image: url(../img/logo-coffee.png);
-    background-size: cover;
-    background-position: center;
-    min-height: 669px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-items: center;
+    text-align: center;
 }
