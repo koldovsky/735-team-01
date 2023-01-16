@@ -51,6 +51,7 @@
 .features__image-barista{
     background-image: url(../img/continent.webp);
     background-size: cover;
-    background-position: bottom;
+    background-position: 400px;
+    background-position: top;
     margin: auto;
 }
