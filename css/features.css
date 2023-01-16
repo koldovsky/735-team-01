@@ -20,11 +20,7 @@
 .features__things{
     color: var(--dark-subtitle-color);
 }
-.list-firstitem{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
+
 .list_firstheading{
     font-weight: 600;
 }
@@ -44,30 +40,7 @@
     color: var(--dark-text-color);
 }
 
-.list__item-one{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-content: normal;
-    justify-content: center;
-}
-.list__item-two{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-content: normal;
-    justify-content: center;
-}
-.list__item-three{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-content: normal;
-    justify-content: center;
-}
 .features__image-barista{
-    display: flex;
-    flex-direction: row-reverse;
     background-image: url(../img/continent.webp);
     background-size: cover;
     background-position: center;
