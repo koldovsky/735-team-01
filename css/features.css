@@ -1,3 +1,6 @@
+.background__between-receipesandfeatures{
+    background-image: url(../img/topwrapping.svg);
+}
 .features__features{
     font-family:'Satisfy', cursive;
     font-style: italic;
@@ -15,7 +18,7 @@
 .features__divider{
     height:3px;
     width:10%;
-    background-color:#c7a17a;
+    background-color:var(--overtitle-color);
 }
 .features__things{
     color: var(--dark-subtitle-color);
@@ -46,7 +49,6 @@
     flex-wrap: wrap;
     align-content: center;
     justify-content: flex-end;
-    align-items: center;
 }
 .features__image-barista{
     display: flex;
