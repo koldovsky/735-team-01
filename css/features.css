@@ -44,14 +44,14 @@
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    align-content: normal;
+    align-content: center;
     justify-content: flex-end;
-    align-items: normal;
+    align-items: center;
 }
 .features__image-barista{
+    display: flex;
     background-image: url(../img/continent.webp);
     background-size: cover;
-    background-position: 400px;
-    background-position: top;
+    background-position: center;
     margin: auto;
 }
