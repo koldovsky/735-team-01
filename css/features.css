@@ -20,7 +20,11 @@
 .features__things{
     color: var(--dark-subtitle-color);
 }
-
+.list-firstitem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .list_firstheading{
     font-weight: 600;
 }
