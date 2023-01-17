@@ -7,11 +7,33 @@
 
 .header__nav {
     display: flex;
-    min-height: 85px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 151px;
+    margin-right: 151px;
 }
 
-.header__logo {
+.header__logo-link {
+    height: 32px;
     line-height: 16px;
+    margin-left: 15px;
+    margin-right: 15px;
+    width: 19%;
+}
+
+.header__menu {
+    height: 37px;
+    margin-block-end: -12px;
+    margin-block-start: -12px;
+    margin-inline-end: -20px;
+    margin-inline-start: -20px;
+    padding-inline-start: 0px;
+}
+
+.menu_item {
+    color: var(--menu-item-color);
 }
 
 .social-icons__icon {
