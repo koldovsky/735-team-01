@@ -4,6 +4,7 @@
     color: var(--overtitle-color);
     font-size: 25px;
     line-height:35px;
+    padding: 5px;
 }
 .features__remember{
     font-size:xx-large; 
@@ -11,6 +12,7 @@
     font-size: 60 px;
     font-family:'Bebas Neue', cursive;
     line-height: 35 px;
+    padding: 2px;
 }
 .features__divider{
     height:3px;
@@ -51,10 +53,13 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin:10px;
+    padding: 10px;
 }
 .colage__photos{
-    display: grid;
-    grid-template-rows: 1 fr 1fr;
+    display: flex;
+    justify-content: center;
+    flex-flow: column wrap;
+    align-content: space-between;
     margin: 10px;
     padding: 10px;
     gap: 10px;
