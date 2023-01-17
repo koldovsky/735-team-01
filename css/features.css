@@ -47,8 +47,6 @@
     margin: auto;
 }
 .features__block{
-    display: flex;
-    justify-content: center;
-    flex-flow: column wrap;
-    align-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
