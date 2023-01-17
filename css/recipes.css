@@ -1,7 +1,7 @@
 .recipes {
     background-color: var(--light-background-color);
     padding-top: 90px;
-    padding-bottom: 90px;
+    padding-bottom: 90px;                      
 }
 
 .recipes__title {
@@ -25,6 +25,12 @@
     font-weight: 400;
 }
 
+.recipes__recipe-description {
+    min-height: 428.6px;
+    background-size: cover;
+    text-align: center;
+}
+
 .recipes__recipe-name {
     color: var(--light-title-color);
     font-size: 28px;
@@ -44,16 +50,52 @@
        
 }
 */
+
+
+
 .recipes__latte {
     background: linear-gradient(rgba(39, 41, 43, 0.84), rgba(39, 41, 43, 0.84)), url(../img/recipes-latte.png);
+    
+    
 }
 
 .recipes__cheese-dessert {
     background: linear-gradient(rgba(39, 41, 43, 0.84), rgba(39, 41, 43, 0.84)), url(../img/recipes-cheese-dessert.png);
+  
 }
 
-.recipes__recipe {
-    min-height: 428.6px;
-    background-size: cover;
-    text-align: center;
+
+
+
+@media(min-width: 767px) {
+    .recipes__recipe-name {
+        font-size: 34px;
+    }
 }
+
+@media(min-width: 768px) {
+    .recipes{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    }
+    .recipes__latte{
+    grid-column: 1/2;
+    }
+    .recipes__cheese-dessert{
+    grid-column: 2/3;
+    }
+}
+
+@media(min-width: 992px) {
+    .recipes{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+    .recipes__latte{
+        grid-column: 2/3;
+    }
+        .recipes__cheese-dessert{
+        grid-column: 3/4;
+    }
+}
+
