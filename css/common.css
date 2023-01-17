@@ -9,7 +9,7 @@
 }
 
 :root {
-    --main-title-color:  rgb(255, 255, 255);
+    --main-title-color: rgb(255, 255, 255);
     --overtitle-color: #c7a17a;
     --social-icon-color: #c7a17a;
     --title-color: rgb(39, 41, 43);
@@ -18,7 +18,7 @@
     --divider-color: #c7a17a;
     --light-background-color: #f2f0ec;
     --light-title-color: rgb(255, 255, 255);
-    --dark-subtitle-color:rgb(91, 91, 91);
+    --dark-subtitle-color: rgb(91, 91, 91);
     --dark-text-color: rgb(130, 130, 130);
     --light-text-color: rgb(230, 230, 230);
     font-family: 'Roboto', sans-serif;
@@ -56,4 +56,34 @@ h2 {
     text-decoration: none;
     background-color: var(--button-background-color);
     text-align: center;
+}
+
+@media(min-width: 767px) {
+    h2 {
+        font-size: 58px;
+    }
+
+    .overtitle {
+        font-size: 24px;
+    }
+}
+
+@media(min-width: 768px) {
+    h2 {
+        font-size: 48px;
+    }
+
+    .overtitle {
+        font-size: 26px;
+    }
+}
+
+@media(min-width: 991px) {
+    h2 {
+        font-size: 58px;
+    }
+
+    .overtitle {
+        font-size: 24px;
+    }
 }

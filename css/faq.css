@@ -1,0 +1,20 @@
+
+
+.faq__overtittle {
+    font-size: 24px;
+    text-align: center;
+    text-transform: none;
+    color: var(--overtitle-color);
+    font-family: 'Satisfy', cursive;
+}
+
+/* вставити фото, тоді код */
+/* .faq__tittle {
+    color: var(--button-text-color);
+} */
+.faq__devider {
+    background-color:var(--overtitle-color);
+    height:3px;
+    width:10%;
+    line-height: 50px;
+}
