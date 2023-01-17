@@ -28,10 +28,7 @@
 .list_description-firstitem{
     color: var(--dark-text-color);
 }
-.list__item-one{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
+
 .list_secondheading{
     font-weight:600;
 }
