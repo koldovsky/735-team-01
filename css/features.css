@@ -2,20 +2,21 @@
     font-family:'Satisfy', cursive;
     font-style: italic;
     color: var(--overtitle-color);
-    font-size: 12px;
+    font-size: 25px;
     line-height:35px;
 }
 .features__remember{
     font-size:inherit; 
     font-weight: 200; 
-    font-size: 75 px;
+    font-size: 100 px;
     font-family:'Bebas Neue', cursive;
-    line-height: 80 px;
+    line-height: 50 px;
 }
 .features__divider{
     height:3px;
     width:10%;
     background-color:var(--overtitle-color);
+    line-height: 50px;
 }
 .features__things{
     color: var(--dark-subtitle-color);
