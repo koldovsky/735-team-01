@@ -52,6 +52,6 @@
 }
 .colage__photos{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 10px;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 3px;
 }
