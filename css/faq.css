@@ -1,16 +1,12 @@
 .faq {
-    /* background-image: url(../img/faq_part.png); */
     background-size: cover;
     background-position: center;
     min-height: 938px;
     margin: auto;
     display: flex;
-    justify-content: flex-start;
-}
+    background: linear-gradient(rgba(39, 41, 43, 0.84), rgba(39, 41, 43, 0.84)), url(../img/faq_part.png);
 
-/* .faq__container {
-    display: flex;
-}  */
+}
 
 .faq__overtittle {
     font-size: 26px;
@@ -47,8 +43,7 @@
     line-height: 28.5px;
     text-align: left;
     overflow-wrap: break-word;
-    text-transform: none;
-
+    /* text-transform: none; */
 }
 
 .faq__textbody {
@@ -94,7 +89,7 @@
     border: 1;
     border-color: var(--button-background-color);
     color: var(--button-background-color);
-    margin-left: 10px;
+    margin-left: 15px;
    
 }
 

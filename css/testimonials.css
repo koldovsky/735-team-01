@@ -1,18 +1,18 @@
-.line{
-	height:3px;
-	width:10%;
-	background-color:--divider-color;
+.line {
+	height: 3px;
+	width: 10%;
+	background-color: var(----divider-color);
 	margin: auto;
 }
-.testimonials__text{
+.testimonials__text {
 	text-align: center;
-	font-style:italic;
-	color:--overtitle-color;
+	font-style: italic;
+	color: var(--overtitle-color);
 	font-size: 24px;
 	font-family: 'Satisfy', cursive;
 	line-height: 24px;
 }
-.testimonials__title{
+.testimonials__title {
 	text-align: center;
 	font-size:inherit;
 	font-family: 'Bebas Neue', cursive;
@@ -20,32 +20,32 @@
 	font-size: 58px;
 	line-height: 63.8px;
 }
-.testimonials__subtitle{
+.testimonials__subtitle {
 	text-align: center;
-	color: --dark-subtitle-color;
+	color: var(--dark-subtitle-color);
 	font-size: 19px;
 	font-family: 'Roboto', sans-serif;
 	font-weight: 500;
 }
-.item__decoration{
+.item__decoration {
 	font-family: 'Roboto', sans-serif;
 }
-.item__name{
+.item__name {
 	font-family: 'Bebas Neue', cursive;
 	font-size: 28px;
 }
-.item__role{
+.item__role {
 	font-family: 'Roboto', sans-serif;
 	color: rgba(39, 41, 43, 0.8);
 	font-style: italic;
 	line-height: 25.05px;
 }
-.item__citation{
-	color: --dark-text-color;
+.item__citation {
+	color: var(--dark-text-color);
 	font-family: 'Roboto', sans-serif;
 	line-height: 25.5px;
 }
-.item__date{
+.item__date {
 	font-family: 'Roboto', sans-serif;
 	font-weight: 700;
 	color: rgb(199, 161, 122);
