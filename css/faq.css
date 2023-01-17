@@ -5,7 +5,8 @@
     margin: auto;
     display: flex;
     background: linear-gradient(rgba(39, 41, 43, 0.84), rgba(39, 41, 43, 0.84)), url(../img/faq_part.png);
-
+    margin-top: 50px;
+    padding: 25px;
 }
 
 .faq__overtittle {
