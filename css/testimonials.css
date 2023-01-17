@@ -1,13 +1,13 @@
 .line{
 	height:3px;
 	width:10%;
-	background-color:#c7a17a;
+	background-color:--divider-color;
 	margin: auto;
 }
 .testimonials__text{
 	text-align: center;
 	font-style:italic;
-	color:#c7a17a;
+	color:--overtitle-color;
 	font-size: 24px;
 	font-family: 'Satisfy', cursive;
 	line-height: 24px;
@@ -22,7 +22,7 @@
 }
 .testimonials__subtitle{
 	text-align: center;
-	color: rgb(91,91,91);
+	color: --dark-subtitle-color;
 	font-size: 19px;
 	font-family: 'Roboto', sans-serif;
 	font-weight: 500;
@@ -41,7 +41,7 @@
 	line-height: 25.05px;
 }
 .item__citation{
-	color: rgb(130, 130, 130);
+	color: --dark-text-color;
 	font-family: 'Roboto', sans-serif;
 	line-height: 25.5px;
 }
