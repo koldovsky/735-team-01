@@ -2,15 +2,15 @@
     font-family:'Satisfy', cursive;
     font-style: italic;
     color: var(--overtitle-color);
-    font-size: 24px;
-    line-height:24px;
+    font-size: 12px;
+    line-height:35px;
 }
 .features__remember{
     font-size:inherit; 
-    font-weight: 300; 
-    font-size: 58 px;
+    font-weight: 200; 
+    font-size: 75 px;
     font-family:'Bebas Neue', cursive;
-    line-height: 63.8px;
+    line-height: 80 px;
 }
 .features__divider{
     height:3px;
@@ -52,6 +52,6 @@
 }
 .colage__photos{
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     gap: 3px;
 }
