@@ -1,22 +1,50 @@
 .header {
-    background-image: url(../img/logo-coffee.png);
+    background-image: linear-gradient(rgba(32, 32, 32, 0.925), rgba(32, 32, 32, 0.925)), url(../img/logo-coffee.png);
     background-size: cover;
     background-position: center;
-    min-height: 938px;
-    margin: auto;
+    min-height: 725px;
 }
 
 .header__nav {
     display: flex;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 151px;
+    margin-right: 151px;
 }
 
-.header__logo {
+.header__logo-link {
+    height: 32px;
     line-height: 16px;
+    margin-left: 15px;
+    margin-right: 15px;
+    width: 19%;
+}
+
+.header__menu {
+    height: 37px;
+    margin-block-end: -12px;
+    margin-block-start: -12px;
+    margin-inline-end: -20px;
+    margin-inline-start: -20px;
+    padding-inline-start: 0px;
+}
+
+.menu_item {
+    color: var(--menu-item-color);
 }
 
 .social-icons__icon {
     font-size: 30px;
     color: var(--social-icon-color);
+}
+
+.header__banner {
+    padding-top: 150px;
+    padding-bottom: 300px;
+    text-align: center;
 }
 
 .header__overtitle {
@@ -28,7 +56,7 @@
 }
 
 .header__title {
-    font-size: 62px;
+    font-size: 115px;
     text-align: center;
     color: var(--button-text-color);
     font-family: 'Bebas Neue', cursive;
@@ -49,8 +77,4 @@
         justify-content: space-around;
         flex: 1;
     }
-}
-
-.header__banner {
-    text-align: center;
 }
