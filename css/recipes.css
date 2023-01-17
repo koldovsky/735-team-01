@@ -1,11 +1,13 @@
 .recipes {
     background-color: var(--light-background-color);
-    padding-top: 90px;
-    padding-bottom: 90px;
+    padding: 90px 24px 90px 24px;
 }
 
 .recipes__title {
     color: var(--title-color);
+    line-height:41.8px;
+    letter-spacing:0.76px;
+    line-height:33.6px;
 }
 
 /*
@@ -13,22 +15,29 @@
     
 }
 */
+
 .recipes__subtitle {
     color: var(--dark-subtitle-color);
     font-size: 19px;
     font-weight: 500;
+    line-height:28.5px;
 }
 
 .recipes__text {
     color: var(--dark-text-color);
     font-size: 17px;
     font-weight: 400;
+    line-height:25.5px;
 }
+
 
 .recipes__recipe-description {
     min-height: 428.6px;
     background-size: cover;
     text-align: center;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-evenly; 
 }
 
 .recipes__recipe-name {
@@ -36,6 +45,7 @@
     font-size: 28px;
     font-family: "Bebas Neue", cursive;
     font-weight: 400;
+    letter-spacing:0.56px;
 
 }
 
@@ -43,13 +53,19 @@
     color: var(--light-text-color);
     font-size: 17px;
     font-weight: 400;
+    line-height:25.5px;
 }
 
-/*
+
 .recipes__open-button{
-       
+width:88.4px;
+height:45px; 
+line-height:15px;
+letter-spacing:0.3px; 
+align-self:center;
+
 }
-*/
+
 
 
 
