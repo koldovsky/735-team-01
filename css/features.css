@@ -28,7 +28,11 @@
 .list_description-firstitem{
     color: var(--dark-text-color);
 }
-
+.list__fulldescription-firstitem{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
 .list_secondheading{
     font-weight:600;
 }
