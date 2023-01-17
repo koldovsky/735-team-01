@@ -1,4 +1,10 @@
-
+.faq {
+    /* background-image: url(../img/faq_part.png); */
+    background-size: cover;
+    background-position: center;
+    min-height: 938px;
+    margin: auto;
+}
 
 .faq__overtittle {
     font-size: 24px;
@@ -9,12 +15,39 @@
 }
 
 /* вставити фото, тоді код */
-/* .faq__tittle {
-    color: var(--button-text-color);
-} */
+.faq__tittle {
+    /* color: var(--button-text-color); */
+    font-family: 'Bebas Neue', cursive;
+    font-size: 38px;
+    font-weight: 400;
+}
+
 .faq__devider {
     background-color:var(--overtitle-color);
     height:3px;
     width:10%;
     line-height: 50px;
+    margin: auto;
+}
+
+.faq__textsubtitle {
+    font-family: 'Roboto', sans-serif;
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 28.5px;
+    text-align: left;
+    overflow-wrap: break-word;
+    text-transform: none;
+
+}
+
+.faq__textbody {
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 25.5px;
+    overflow-wrap: break-word;
+    text-align: left;
+    text-transform: none;
+    vertical-align: baseline;
+    font-family: 'Roboto', sans-serif;
 }
