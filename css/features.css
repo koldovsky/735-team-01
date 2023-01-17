@@ -28,6 +28,10 @@
 .list_description-firstitem{
     color: var(--dark-text-color);
 }
+.list__item-one{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
 .list_secondheading{
     font-weight:600;
 }
@@ -40,16 +44,17 @@
 .list_description-thirditem{
     color: var(--dark-text-color);
 }
-
 .features__image-barista{
     background-image: url(../img/continent.webp);
     background-size: cover;
     background-position: center;
     margin: auto;
 }
+
 .features__total-view{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    margin:10px;
 }
 .colage__photos{
     margin: 10px;
