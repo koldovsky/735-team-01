@@ -1,0 +1,7 @@
+.faq__overtittle {
+    font-size: 24px;
+    text-align: center;
+    text-transform: none;
+    color: var(--overtitle-color);
+    font-family: 'Satisfy', cursive;
+}
