@@ -4,14 +4,19 @@
     background-position: center;
     min-height: 938px;
     margin: auto;
+    display: flex;
 }
 
 .faq__overtittle {
-    font-size: 24px;
-    text-align: center;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
     text-transform: none;
     color: var(--overtitle-color);
     font-family: 'Satisfy', cursive;
+    box-sizing: border-box;
+    vertical-align: baseline;
 }
 
 /* вставити фото, тоді код */
