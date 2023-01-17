@@ -1,20 +1,95 @@
+.faq {
+    background-size: cover;
+    background-position: center;
+    min-height: 938px;
+    margin: auto;
+    display: flex;
+    background: linear-gradient(rgba(39, 41, 43, 0.84), rgba(39, 41, 43, 0.84)), url(../img/faq_part.png);
 
+}
 
 .faq__overtittle {
-    font-size: 24px;
-    text-align: center;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
     text-transform: none;
     color: var(--overtitle-color);
     font-family: 'Satisfy', cursive;
+    box-sizing: border-box;
+    vertical-align: baseline;
 }
 
 /* вставити фото, тоді код */
-/* .faq__tittle {
-    color: var(--button-text-color);
-} */
+.faq__tittle {
+    /* color: var(--button-text-color); */
+    font-family: 'Bebas Neue', cursive;
+    font-size: 38px;
+    font-weight: 400;
+}
+
 .faq__devider {
     background-color:var(--overtitle-color);
     height:3px;
     width:10%;
     line-height: 50px;
+    margin: auto;
 }
+
+.faq__textsubtitle {
+    font-family: 'Roboto', sans-serif;
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 28.5px;
+    text-align: left;
+    overflow-wrap: break-word;
+    /* text-transform: none; */
+}
+
+.faq__textbody {
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 25.5px;
+    overflow-wrap: break-word;
+    text-align: left;
+    text-transform: none;
+    vertical-align: baseline;
+    font-family: 'Roboto', sans-serif;
+}
+
+.faq__btns-group {
+    display: flex;
+}
+
+.faq__btn-select {
+    font-size: 15px;
+    height: 45px;
+    width: 161.641px;
+    left: 0px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: var(--button-text-color);
+    letter-spacing: 0.3px;
+    text-decoration: none;
+    background-color: var(--button-background-color);
+    text-align: center;
+    border: 0;
+   
+}
+.faq__btn-contac {
+    font-size: 15px;
+    height: 45px;
+    width: 128.875px;
+    left: 0px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    letter-spacing: 0.3px;
+    text-decoration: none;
+    text-align: center;
+    border: 1;
+    border-color: var(--button-background-color);
+    color: var(--button-background-color);
+    margin-left: 15px;
+   
+}
+
