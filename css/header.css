@@ -14,6 +14,8 @@
 }
 
 .social-icons__icon {
+    font-size: 30px;
+    color: var(--social-icon-color);
 }
 
 .header__overtitle {
