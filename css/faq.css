@@ -5,7 +5,12 @@
     min-height: 938px;
     margin: auto;
     display: flex;
+    justify-content: flex-start;
 }
+
+/* .faq__container {
+    display: flex;
+}  */
 
 .faq__overtittle {
     font-size: 26px;
@@ -56,3 +61,40 @@
     vertical-align: baseline;
     font-family: 'Roboto', sans-serif;
 }
+
+.faq__btns-group {
+    display: flex;
+}
+
+.faq__btn-select {
+    font-size: 15px;
+    height: 45px;
+    width: 161.641px;
+    left: 0px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: var(--button-text-color);
+    letter-spacing: 0.3px;
+    text-decoration: none;
+    background-color: var(--button-background-color);
+    text-align: center;
+    border: 0;
+   
+}
+.faq__btn-contac {
+    font-size: 15px;
+    height: 45px;
+    width: 128.875px;
+    left: 0px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    letter-spacing: 0.3px;
+    text-decoration: none;
+    text-align: center;
+    border: 1;
+    border-color: var(--button-background-color);
+    color: var(--button-background-color);
+    margin-left: 10px;
+   
+}
+
