@@ -29,9 +29,8 @@
     color: var(--dark-text-color);
 }
 .list__fulldescription-firstitem{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 .list_secondheading{
     font-weight:600;

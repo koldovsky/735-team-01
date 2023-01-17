@@ -5,6 +5,7 @@
     min-height: 938px;
     margin: auto;
 }
+
 .header__nav {
     display: flex;
 }
@@ -14,6 +15,8 @@
 }
 
 .social-icons__icon {
+    font-size: 30px;
+    color: var(--social-icon-color);
 }
 
 .header__overtitle {
