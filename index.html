@@ -7,13 +7,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Barista School Website Template Demo</title>
     <link rel="shortcut icon" href="img/barista-icon.png" type="logo icon">
-    <link rel="stylesheet" href="css/index.css">
     <!--Fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,400;0,500;0,700;1,400&family=Satisfy&display=swap"
         rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/index.css">
 </head>
 
 
@@ -143,8 +145,8 @@
                 <h3 class="recipes__recipe-name">COLD LATTE</h3>
                 <p class="recipes__recipe-text">To make the number one summer coffee, mix espresso, milk, syrup,
                     and ice cubes. Blend everything until it looks like a one-piece liquid. Pour the mix into
-                    glasses and decorate the glass with whipped cream.</p>             
-                    <a href="#" class="recipes__open-button button">Open</a>                
+                    glasses and decorate the glass with whipped cream.</p>
+                <a href="#" class="recipes__open-button button">Open</a>
             </div>
             <div class="recipes__recipe-description recipes__cheese-dessert">
                 <h3 class="recipes__recipe-name">CHEESE DESSERT</h3>
@@ -338,33 +340,66 @@
                 </div>
             </div>
             <!-- Block DETAILS -->
-            <div class="accordions">
-                <details class="accordion">
-                    <summary class="accordion__header">Who are these courses for?</summary>
-                    <p class="accordion__content">We have different courses designed for
-                        beginners and professionals. It all depends on your skills and
-                        needs.</p>
-                </details>
-                <details>
-                    <summary class="accordion__header">Do I need to buy an espresso machine to study?</summary>
-                    <p class="accordion__content">A good coffee machine is a must for everyone who wants to make
-                        delicious coffee. Still,
-                        during the courses, you'll use our equipment, so you don't need to buy anything to study.
-                    </p>
-                </details>
-                <details>
-                    <summar class="accordion__header">Do you teach ne ways of breing coffee?</summary>
-                        <p class="accordion__content">Yes, you can master new techniques of brewing on our Advanced
-                            Barista Course.
-                        </p>
-                </details>
-                <details>
-                    <summary class="accordion__header">What if I decide to quite in the middle of the course?</summary>
-                    <p class="accordion__content">If your plans change before the start of the course, you get your
-                        money back. But, in case of
-                        any changes when the course has already started, you can only switch to another course.
-                    </p>
-                </details>
+
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingOne">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                            Who are these courses for?
+                        </button>
+                    </h2>
+                    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">We have different courses designed for
+                            beginners and professionals. It all depends on your skills and
+                            needs.</div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                            Do I need to buy an espresso machine to study?
+                        </button>
+                    </h2>
+                    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">A good coffee machine is a must for everyone who wants to make
+                            delicious coffee. Still,
+                            during the courses, you'll use our equipment, so you don't need to buy anything to study.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingOne">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                            Do you teach ne ways of breing coffee?
+                        </button>
+                    </h2>
+                    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Yes, you can master new techniques of brewing on our Advanced
+                            Barista Course.</div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseThree" aria-expanded="false"
+                            aria-controls="flush-collapseThree">
+                            What if I decide to quite in the middle of the course?
+                        </button>
+                    </h2>
+                    <div id="flush-collapseThree" class="accordion-collapse collapse"
+                        aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">If your plans change before the start of the course, you get your
+                            money back. But, in case of
+                            any changes when the course has already started, you can only switch to another course.
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
 
@@ -467,6 +502,9 @@
 
     </footer>
     <!-- Roksolana Morozova -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
