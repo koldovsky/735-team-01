@@ -3,7 +3,7 @@
     background-position: center;
     min-height: 938px;
     margin: auto;
-    /* background: linear-gradient(rgba(39, 41, 43, 0.84), rgba(39, 41, 43, 0.84)), url(../img/faq_part.png); */
+    background: linear-gradient(rgba(39, 41, 43, 0.84), rgba(39, 41, 43, 0.84)), url(../img/faq_part.png);
     margin-top: 50px;
     padding: 25px;
     display: flex;
@@ -21,9 +21,8 @@
     vertical-align: baseline;
 }
 
-/* вставити фото, тоді код */
 .faq__tittle {
-    /* color: var(--button-text-color); */
+    color: var(--button-text-color);
     font-family: 'Bebas Neue', cursive;
     font-size: 38px;
     font-weight: 400;
@@ -34,7 +33,7 @@
     height:3px;
     width:10%;
     line-height: 50px;
-    margin: auto;
+    /* margin: auto; */
 }
 
 .faq__textsubtitle {
@@ -45,6 +44,7 @@
     text-align: left;
     overflow-wrap: break-word;
     /* text-transform: none; */
+    color: var(--main-title-color);
 }
 
 .faq__textbody {
@@ -56,6 +56,7 @@
     text-transform: none;
     vertical-align: baseline;
     font-family: 'Roboto', sans-serif;
+    color: var(--main-title-color);
 }
 
 .faq__btns-group {
