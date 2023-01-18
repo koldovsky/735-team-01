@@ -2,7 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Satisfy&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-
 * {
     margin: 0;
     padding: 0;
@@ -13,7 +12,7 @@
     --main-title-color: rgb(255, 255, 255);
     --menu-item-color: rgb(255, 255, 255);
     --overtitle-color: #c7a17a;
-    --social-icon-color: #c7a17a;
+    --social-icon-color: rgb(199, 161, 122);
     --title-color: rgb(39, 41, 43);
     --button-text-color: rgb(255, 255, 255);
     --button-background-color: #c7a17a;
@@ -23,6 +22,10 @@
     --dark-subtitle-color: rgb(91, 91, 91);
     --dark-text-color: rgb(130, 130, 130);
     --light-text-color: rgb(230, 230, 230);
+    --dark-background-color: #27292b;
+    --accent-background-color: #2e3032;
+    --transparent-background-color: rgba(255, 255, 255, 0.01);
+    --form-textcolor: rgb(225, 224, 224);
     font-family: 'Roboto', sans-serif;
 }
 
@@ -64,7 +67,6 @@ h2 {
     h2 {
         font-size: 58px;
     }
-
     .overtitle {
         font-size: 24px;
     }
@@ -74,7 +76,6 @@ h2 {
     h2 {
         font-size: 48px;
     }
-
     .overtitle {
         font-size: 26px;
     }
@@ -84,7 +85,6 @@ h2 {
     h2 {
         font-size: 58px;
     }
-
     .overtitle {
         font-size: 24px;
     }
