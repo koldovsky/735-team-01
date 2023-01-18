@@ -1,7 +1,6 @@
  .faq {
-    background-size: cover;
-    background-position: center;
-    min-height: 938px;
+    /* background-size: cover;
+    background-position: center; */
     margin: auto;
     background: linear-gradient(rgba(39, 41, 43, 0.84), rgba(39, 41, 43, 0.84)), url(../img/faq_part.png);
     margin-top: 50px;
