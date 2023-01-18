@@ -36,12 +36,13 @@
 
 
 .recipes__recipe-description {
-    min-height: 428.6px;
-    background-size: cover;
+    
     text-align: center;
     display:flex;
     flex-direction:column;
-    justify-content:space-evenly; 
+    justify-content:space-evenly;
+    
+  
 }
 
 .recipes__recipe-name {
@@ -75,12 +76,14 @@ align-self:center;
 
 .recipes__latte {
     background: linear-gradient(rgba(39, 41, 43, 0.84), rgba(39, 41, 43, 0.84)), url(../img/recipes-latte.png);
-
-
+    height: 100vh;
+    background-size: cover;
 }
 
 .recipes__cheese-dessert {
     background: linear-gradient(rgba(39, 41, 43, 0.84), rgba(39, 41, 43, 0.84)), url(../img/recipes-cheese-dessert.png);
+    min-height: 100vh;
+    background-size: cover;
 
 }
 
