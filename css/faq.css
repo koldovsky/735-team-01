@@ -114,4 +114,9 @@
     cursor: pointer;
     letter-spacing: 0.48px;
     line-height: 29.52px;
+    background-color: transparent;
+}
+
+.accordion-header {
+
 }
