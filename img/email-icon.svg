@@ -1,16 +1,16 @@
 <svg width="20" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 48 48" style="enable-background:new 0 0 48 48;max-width:100%" xml:space="preserve" height="100%">
-                            <g fill="currentColor">
+                            <g fill="rgb(199, 161, 122)">
                                 <path
                                     d="M43.1,6.9H4.9c-0.3,0-0.5,0.4-0.3,0.7l19.1,19.1c0.2,0.2,0.4,0.2,0.6,0L43.4,7.6C43.7,7.3,43.5,6.9,43.1,6.9z"
-                                    fill="currentColor"></path>
+                                    fill="rgb(199, 161, 122)"></path>
                                 <path
                                     d="M1.2,36.7L13.9,24c0.2-0.2,0.2-0.4,0-0.6L1.2,10.8c-0.2-0.2-0.7-0.1-0.7,0.3v25.4C0.5,36.8,0.9,37,1.2,36.7z"
-                                    fill="currentColor"></path>
+                                    fill="rgb(199, 161, 122)"></path>
                                 <path
                                     d="M30.8,27.4c-0.2-0.2-0.4-0.2-0.6,0L25.7,32c-0.5,0.5-1.1,0.7-1.7,0.7s-1.2-0.2-1.7-0.7l-4.6-4.6c-0.2-0.2-0.4-0.2-0.6,0   L4.1,40.4c-0.2,0.2-0.1,0.7,0.3,0.7h39.2c0.3,0,0.5-0.4,0.3-0.7L30.8,27.4z"
-                                    fill="currentColor"></path>
+                                    fill="rgb(199, 161, 122)"></path>
                                 <path
                                     d="M46.8,10.8L34.1,23.5c-0.2,0.2-0.2,0.4,0,0.6l12.7,12.7c0.2,0.2,0.7,0.1,0.7-0.3V11.1C47.5,10.7,47.1,10.6,46.8,10.8z"
-                                    fill="currentColor"></path>
+                                    fill="rgb(199, 161, 122)"></path>
                             </g>
                         </svg>
