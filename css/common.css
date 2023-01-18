@@ -11,11 +11,11 @@
 :root {
     --main-title-color: rgb(255, 255, 255);
     --menu-item-color: rgb(255, 255, 255);
-    --overtitle-color: #c7a17a;
+    --overtitle-color: rgb(199, 161, 122);
     --social-icon-color: rgb(199, 161, 122);
     --title-color: rgb(39, 41, 43);
     --button-text-color: rgb(255, 255, 255);
-    --button-background-color: #c7a17a;
+    --button-background-color: rgb(199, 161, 122);
     --divider-color: #c7a17a;
     --light-background-color: #f2f0ec;
     --light-title-color: rgb(255, 255, 255);
