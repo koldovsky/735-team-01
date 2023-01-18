@@ -1,7 +1,6 @@
  .faq {
-    background-size: cover;
-    background-position: center;
-    min-height: 938px;
+    /* background-size: cover;
+    background-position: center; */
     margin: auto;
     background: linear-gradient(rgba(39, 41, 43, 0.84), rgba(39, 41, 43, 0.84)), url(../img/faq_part.png);
     margin-top: 50px;
@@ -95,4 +94,29 @@
     background-color: rgb(199, 161, 122, 0); 
 
 }
+.accordion-item { 
+    background-color: transparent;
+    color: rgb(225 224 244);
+    line-height: 25.5px;
+    font-size: 17px;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    box-sizing: border-box;
 
+}
+
+.accordion-button {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 24px;
+    font-size: 400;
+    text-align: left;
+    cursor: pointer;
+    letter-spacing: 0.48px;
+    line-height: 29.52px;
+    background-color: transparent;
+}
+
+.accordion-header {
+
+}
