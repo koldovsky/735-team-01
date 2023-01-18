@@ -13,11 +13,12 @@
 
     line-height:24px;
 }
-/*
+
 .recipes__divider {
-    
+ width:15%;
+ margin-left:0px;
 }
-*/
+
 
 .recipes__subtitle {
     color: var(--dark-subtitle-color);
