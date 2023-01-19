@@ -103,7 +103,6 @@
     }
     .recipes__latte {
     margin-bottom:35px;
-
     }
     .recipes__recipe-name {
         font-size: 34px;
@@ -118,7 +117,7 @@
     .recipes {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        grid-gap: 34px;
+        grid-column-gap:33px;
     }
 
     .recipes__info {
@@ -133,16 +132,20 @@
         letter-spacing: 0.96px;
         line-height: 52.8px;
     }
-
+   
     .recipes__recipe-name {
-        font-size: 34px;
+        font-size: 31px;
         letter-spacing: 0.62px;
         line-height: 37.2px;
     }
-    
+   
+    .recipes__recipe-description{
+        margin-bottom:0px;
+        padding-top:54px;  
+        padding-bottom:85px;
+    }
     .recipes__latte {
         grid-column: 1/2;
-        margin-bottom: 0px;
     }
 
     .recipes__cheese-dessert {
@@ -174,10 +177,17 @@
     .recipes {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
+        grid-column-gap:33px;
     }
 
     .recipes__info {
         grid-column: 1/2;
+        margin-left:35px;
+    }
+   
+    .recipes__recipe-description {
+     margin-bottom:92px;
+     padding-top:70px;
     }
 
     .recipes__latte {
@@ -188,5 +198,7 @@
     .recipes__cheese-dessert {
         grid-column: 3/4;
     }
+
+ 
 
 }
