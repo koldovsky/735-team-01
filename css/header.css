@@ -24,20 +24,23 @@
 }
 
 .header__menu {
+    width: 440px;
+    display: flex;
+    justify-content: space-around;
     height: 37px;
     margin-block-end: -12px;
-    margin-block-start: -12px;
-    margin-inline-end: -20px;
-    margin-inline-start: -20px;
-    padding-inline-start: 0px;
 }
 
 .menu_item {
+    font-family: 'Roboto', sans-serif;
+    text-decoration-line: none;
+    font-weight: 600;
     color: var(--menu-item-color);
 }
 
 .social-icons__icon {
     font-size: 30px;
+    text-decoration: none;
     color: var(--social-icon-color);
 }
 
