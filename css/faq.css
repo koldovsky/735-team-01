@@ -2,7 +2,7 @@
     background-size: cover;
     background: linear-gradient(rgba(39, 41, 43, 0.93), rgba(39, 41, 43, 0.93)), url(../img/faq_part.png);
     background-attachment: fixed;
-    background-position: 60% 20%;
+    background-position: 50% 20%;
     display: grid;
     grid-template-columns: 2fr 1fr;
     padding: 120px 60px 120px 60px; 
