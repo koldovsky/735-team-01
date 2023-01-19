@@ -1,0 +1,31 @@
+.text__brand {
+    color: var(--overtitle-color);
+    font-family: 'Satisfy', undefined;
+    font-size: 26px;
+}
+
+.background__text {
+    min-height: 428.6px;
+    background-size: cover;
+    text-align: center;
+
+}
+
+.about__team {
+    background-size: cover;
+    text-align: center;
+}
+
+.baristas__text {
+    color: var(--dark-subtitle-color);
+    font-size: 19px;
+    font-weight: 500;
+}
+
+.simple__line {
+    margin: auto;
+    height: 3px;
+    width: 5%;
+    background-color: var(--divider-color);
+}
+
