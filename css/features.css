@@ -1,0 +1,63 @@
+.features__features{
+    font-family:'Satisfy', cursive;
+    font-style: italic;
+    color: var(--overtitle-color);
+    font-size: 25px;
+    line-height:35px;
+}
+.features__remember{
+    font-size:xx-large; 
+    font-weight: 600; 
+    font-size: 60 px;
+    font-family:'Bebas Neue', cursive;
+    line-height: 35 px;
+}
+.features__divider{
+    height:3px;
+    width:10%;
+    background-color:var(--overtitle-color);
+    line-height: 50px;
+}
+.features__things{
+    color: var(--dark-subtitle-color);
+}
+
+.list_firstheading{
+    font-weight: 600;
+}
+.list_description-firstitem{
+    color: var(--dark-text-color);
+}
+.list__fulldescription-firstitem{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.list_secondheading{
+    font-weight:600;
+}
+.list_description-seconditem{
+    color: var(--dark-text-color);
+}
+.list_thirdheading{
+    font-weight:600;
+}
+.list_description-thirditem{
+    color: var(--dark-text-color);
+}
+.features__image-barista{
+    background-image: url(../img/continent.webp);
+    background-size: cover;
+    background-position: center;
+    margin: auto;
+}
+
+.features__total-view{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin:10px;
+}
+.colage__photos{
+    margin: 10px;
+    padding: 10px;
+    gap: 10px;
+}

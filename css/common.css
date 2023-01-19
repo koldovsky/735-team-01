@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --main-title-color:  rgb(255, 255, 255);
+    --overtitle-color: #c7a17a;
+    --social-icon-color: #c7a17a;
+    --title-color: rgb(39, 41, 43);
+    --button-text-color: rgb(255, 255, 255);
+    --button-background-color: #c7a17a;
+    --divider-color: #c7a17a;
+    --light-background-color: #f2f0ec;
+    --light-title-color: rgb(255, 255, 255);
+    --dark-subtitle-color:rgb(91, 91, 91);
+    --dark-text-color: rgb(130, 130, 130);
+    --light-text-color: rgb(230, 230, 230);
+    font-family: 'Roboto', sans-serif;
+}
+
+.overtitle {
+    color: var(--overtitle-color);
+    font-family: 'Satisfy', undefined;
+    font-size: 26px;
+}
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+}
+
+h2 {
+    font-family: "Bebas Neue", cursive;
+    font-size: 38px;
+    font-weight: 400;
+}
+
+.divider {
+    margin: auto;
+    height: 3px;
+    width: 10%;
+    background-color: var(--divider-color);
+}
+
+.button {
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: var(--button-text-color);
+    text-decoration: none;
+    background-color: var(--button-background-color);
+    text-align: center;
+}
+
+
+
+
+
