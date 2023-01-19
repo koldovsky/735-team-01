@@ -64,3 +64,10 @@
     padding: 10px;
     gap: 10px;
 }
+@media(min-width:400px){
+    .features__total-view{
+        display:flex;
+        flex-direction:row;
+        align-self:center;
+    }
+}
