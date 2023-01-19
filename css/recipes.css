@@ -183,8 +183,7 @@
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         grid-column-gap:33px;
-        padding-right:40px;
-        padding-left:40px;
+        padding:90px 40px 90px 40px;
         padding-left:0px;
     }
 
