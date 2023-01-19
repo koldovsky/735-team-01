@@ -2,16 +2,14 @@
     background-size: cover;
     background-position: 50% 50%;
     margin: auto;
-    background: linear-gradient(rgba(39, 41, 43, 0.84), rgba(39, 41, 43, 0.84)), url(../img/faq_part.png);
+    background: linear-gradient(rgba(39, 41, 43, 0.90), rgba(39, 41, 43, 0.90)), url(../img/faq_part.png);
     background-attachment: fixed;
     /* margin-top: 50px; */
     /* padding: 25px; */
     /* padding: 90px 25px 90px 25px; */
     display: grid;
     grid-template-columns: 2fr 1fr;
-    padding: 150px 24px 150px 24px;
-    
-    
+    padding: 150px 24px 150px 24px;   
 }
 
 .faq__overtittle {
