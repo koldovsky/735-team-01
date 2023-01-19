@@ -1,19 +1,385 @@
-.footer {
-    background-color: var(--title-color);
-}
-
-.application__left-side {
-    box-sizing: border-box;
-}
-
-.contact__subtitle {
-    color: var(--overtitle-color);
-    font-family: Satisfy, undefined;
-    font-size: 26px;
-}
-
-.contact__title {
-    color: rgb(255, 255, 255);
-    font-family: 'Bebas neue', cursive;
-    font-size: 38px;
-}
+            .footer {
+                background-color: var(--dark-background-color);
+            }
+            
+            .application {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                padding-top: 90px;
+                padding-bottom: 66px;
+                padding-left: 24px;
+                padding-right: 24px;
+                margin-left: 0;
+                margin-right: 0;
+            }
+            
+            .application__left-side {
+                min-height: 700px;
+                background: var(--accent-background-color);
+                border: none;
+                padding: 0;
+            }
+            
+            .application__text {
+                padding-top: 35px;
+                padding-left: 35px;
+                padding-right: 35px;
+            }
+            
+            .contact__subtitle {
+                color: var(--overtitle-color);
+                font-family: Satisfy, undefined;
+                font-size: 26px;
+                text-align: left;
+            }
+            
+            .contact__title {
+                color: var(--main-title-color);
+                font-family: 'Bebas neue', cursive;
+                font-size: 38px;
+                font-weight: 400;
+                margin-top: 20px;
+                margin-bottom: 0px;
+            }
+            
+            .contact__phone-number {
+                display: flex;
+                flex-direction: row;
+                margin-top: 25px;
+                margin-bottom: 16px;
+                font-family: Roboto, sans-serif;
+                color: var(--form-textcolor);
+                font-size: 17px;
+                cursor: pointer;
+            }
+            
+            .number__icon {
+                width: 20px;
+                height: 20px;
+                margin-right: 10px;
+            }
+            
+            .contact__email {
+                display: flex;
+                flex-direction: row;
+            }
+            
+            .email__send {
+                margin-bottom: 16px;
+                font-family: Roboto, sans-serif;
+                color: var(--form-textcolor);
+                text-decoration: none;
+                font-size: 17px;
+                cursor: pointer;
+            }
+            
+            .email__icon {
+                width: 20px;
+                height: 20px;
+                margin-right: 10px;
+            }
+            
+            .application__form {
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-start;
+                padding-left: 35px;
+                padding-right: 35px;
+                padding-bottom: 35px;
+            }
+            
+            .form__cells {
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-start;
+                position: relative;
+            }
+            
+            .form__full-name {
+                background-color: var(--transparent-background-color);
+                padding-bottom: 15px;
+                padding-left: 26px;
+                padding-right: 26px;
+                padding-top: 15px;
+                border: none;
+                font-family: Roboto, sans-serif;
+                font-size: 15px;
+                margin-top: 12px;
+                margin-bottom: 24px;
+            }
+            
+            .form__phone-number {
+                background-color: var(--transparent-background-color);
+                padding-bottom: 15px;
+                padding-left: 26px;
+                padding-right: 26px;
+                padding-top: 15px;
+                border: none;
+                font-family: Roboto, sans-serif;
+                font-size: 15px;
+                margin-top: 12px;
+                margin-bottom: 24px;
+            }
+            
+            .form__email {
+                background-color: var(--transparent-background-color);
+                padding-bottom: 15px;
+                padding-left: 26px;
+                padding-right: 26px;
+                padding-top: 15px;
+                border: none;
+                font-family: Roboto, sans-serif;
+                font-size: 15px;
+                margin-top: 12px;
+                margin-bottom: 24px;
+            }
+            
+            .form__course {
+                background-color: var(--transparent-background-color);
+                padding-bottom: 15px;
+                padding-left: 26px;
+                padding-right: 26px;
+                padding-top: 15px;
+                border: none;
+                font-family: Roboto, sans-serif;
+                font-size: 15px;
+                margin-top: 12px;
+            }
+            
+            .form__button {
+                background-color: var(--button-background-color);
+                color: var(--button-text-color);
+                border: none;
+                cursor: pointer;
+                display: inline-block;
+                font-size: 15px;
+                min-width: 198px;
+                height: 41px;
+                padding-bottom: 0px;
+                padding-left: 26px;
+                padding-right: 26px;
+                padding-top: 0px;
+                text-align: center;
+                text-decoration: none;
+                border-radius: none;
+                margin-top: 56px;
+                font-family: Roboto, sans-serif;
+            }
+            
+            .application__map {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                align-items: stretch;
+                margin-top: 50px;
+            }
+            
+            .map {
+                height: 700px;
+            }
+            
+            @media (min-width: 768px) {
+                .application {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-around;
+                    padding-left: 40px;
+                    padding-right: 40px;
+                }
+                .application__left-side {
+                    flex: 1;
+                }
+                .application__right-side {
+                    flex: 2;
+                    padding-left: 30px;
+                    margin-top: -50px;
+                }
+                .map {
+                    height: 725px;
+                }
+            }
+            
+            .information__boxes {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                padding-left: 24px;
+                padding-right: 24px;
+                padding-bottom: 24px;
+            }
+            
+            .information__box {
+                display: flex;
+                flex-direction: row;
+                justify-content: flex-start;
+                align-items: start;
+                padding-bottom: 7.5px;
+                padding-top: 7.5px;
+                color: var(--main-title-color)
+            }
+            
+            .hours__texts {
+                margin-top: 7.5px;
+                margin-left: 7.5px;
+                margin-right: 7.5px;
+                margin-bottom: 7.5px;
+            }
+            
+            .hours__icon,
+            .location__icon,
+            .faq__icon {
+                margin-top: 7.5px;
+                margin-left: 0px;
+                margin-right: 7.5px;
+                margin-bottom: 7.5px;
+                justify-content: flex-start;
+            }
+            
+            .location__title,
+            .faq__title,
+            .hours__title {
+                font-family: "Bebas Neue", cursive;
+                font-size: 24px;
+                margin-right: 5px;
+                font-weight: 400;
+                text-align: start;
+                line-height: 29.5px;
+                letter-spacing: 0.48px;
+            }
+            
+            .location_place,
+            .hours__days,
+            .faq__text {
+                font-family: Roboto, sans-serif;
+                font-size: 17px;
+                font-weight: 400;
+                line-height: 25.5px;
+                color: var(--form-textcolor);
+            }
+            
+            .faq__link {
+                text-decoration: none;
+                color: var(--button-background-color)
+            }
+            
+            .location {
+                margin-top: 50px;
+            }
+            
+            .faq_passing {
+                margin-top: 50px;
+            }
+            
+            @media (min-width: 768px) {
+                .information__boxes {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    align-items: center;
+                }
+                .location,
+                .faq_passing,
+                .hours {
+                    margin-top: 0px;
+                }
+                .location,
+                .faq_passing {
+                    padding-left: 5px;
+                    padding-right: 5px;
+                }
+            }
+            
+            .navigation {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                text-align: center;
+                padding-left: 24px;
+                padding-right: 24px;
+                padding-bottom: 30px;
+                padding-top: 55px;
+            }
+            
+            .navigation__logo-link {
+                height: 32px;
+                line-height: 16px;
+                margin-left: 32.5px;
+                margin-right: 32.5px;
+            }
+            
+            .navigation__menu {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                text-align: center;
+                margin-top: 50px;
+                padding-left: 15px;
+                padding-right: 15px;
+            }
+            
+            .menu_item {
+                color: var(--form-textcolor);
+                text-decoration: none;
+                cursor: pointer;
+                margin-top: 10px;
+                margin-bottom: 10px;
+                margin-left: 5px;
+                margin-right: 5px;
+                font-family: Roboto, sans-serif;
+                font-weight: 600;
+            }
+            
+            .menu_item:hover {
+                text-decoration: underline;
+            }
+            
+            .navigation__social-icons {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                margin-top: 50px;
+                padding-left: 15px;
+                padding-right: 15px;
+            }
+            
+            .social-icons__icon-bottom {
+                margin-bottom: 10px;
+                margin-left: 7.5px;
+                margin-right: 7.5px;
+            }
+            
+            .icon-bottom__facebook,
+            .icon-bottom__instagram,
+            .icon-bottom__youtube {
+                width: 30px;
+                height: 30px;
+            }
+            
+            .underline__line {
+                border: none;
+                background-color: white;
+                color: white;
+                height: 1px;
+                opacity: 0.2;
+            }
+            
+            .navigation__underline {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+            }
+            
+            .underline__leftside {
+                font-family: Roboto, sans-serif;
+                font-size: 15px;
+                line-height: 25.05px;
+                color: var(--main-title-color);
+            }
+            
+            .underline__rightside {
+                font-family: Roboto, sans-serif;
+                font-size: 15px;
+                line-height: 25.05px;
+                color: var(--main-title-color);
+            }
