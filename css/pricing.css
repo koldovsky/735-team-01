@@ -1,0 +1,36 @@
+/* .pricing {
+    background-color: var(--title-color);
+} */
+
+.pricing__overtittle {
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 26px;
+    text-transform: none;
+    color: var(--overtitle-color);
+    font-family: 'Satisfy', cursive;
+    box-sizing: border-box;
+    vertical-align: baseline;
+
+}
+.pricing__tittle {
+    color: var(--button-text-color);
+    font-family: 'Bebas Neue', cursive;
+    font-size: 38px;
+    font-weight: 400;
+    text-align: left;
+}
+.pricing__text {
+     color: var(--button-text-color);
+     color: rgb(230,230,230);
+     font-family: 'Roboto', sans-serif;
+     font-size: 19px;
+     font-weight: 500;
+     line-height: 28.5px;
+     text-align: center;
+}
+
+.item-pricing__tittle {
+    color: rgb(230,230,230);
+   
+}

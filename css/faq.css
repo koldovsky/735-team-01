@@ -1,0 +1,135 @@
+ .faq {
+    /* background-size: cover;
+    background-position: center; */
+    margin: auto;
+    background: linear-gradient(rgba(39, 41, 43, 0.84), rgba(39, 41, 43, 0.84)), url(../img/faq_part.png);
+    /* margin-top: 50px; */
+    /* padding: 25px; */
+    display: flex;
+    padding: 90px 25px 90px 25px;
+    flex-direction:row;
+    justify-content:space-evenly;
+}
+
+.faq__overtittle {
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    text-transform: none;
+    color: var(--overtitle-color);
+    font-family: 'Satisfy', cursive;
+    box-sizing: border-box;
+    vertical-align: baseline;
+}
+
+.faq__tittle {
+    color: var(--button-text-color);
+    font-family: 'Bebas Neue', cursive;
+    font-size: 38px;
+    font-weight: 400;
+}
+
+.faq__devider {
+    background-color:var(--overtitle-color);
+    height:3px;
+    width:10%;
+    line-height: 50px;
+    margin: left;
+}
+
+.faq__textsubtitle {
+    font-family: 'Roboto', sans-serif;
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 28.5px;
+    text-align: left;
+    overflow-wrap: break-word;
+    /* text-transform: none; */
+    color: var(--main-title-color);
+}
+
+.faq__textbody {
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 25.5px;
+    overflow-wrap: break-word;
+    text-align: left;
+    text-transform: none;
+    vertical-align: baseline;
+    font-family: 'Roboto', sans-serif;
+    color: var(--main-title-color);
+}
+
+.faq__btns-group {
+    display: flex;
+    flex-direction:row;
+    justify-content: flex-start;
+}
+
+.faq__btn-select {
+    font-size: 15px;
+    height: 45px;
+    width: 161.641px;
+    left: 0px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: var(--button-text-color);
+    letter-spacing: 0.3px;
+    text-decoration: none;
+    background-color: var(--button-background-color);
+    text-align: center;
+    border: 0;
+    line-height:15px; 
+    padding: 15px 26px 15px 26px;
+    align-self:center;
+   
+}
+
+ .faq__btn-contact {
+    font-size: 15px;
+    height: 45px;
+    width: 128.875px;
+    left: 0px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    letter-spacing: 0.3px;
+    text-decoration: none;
+    text-align: center;
+   
+    border-color: var(--button-background-color);
+    color: var(--button-background-color);
+    margin-left: 15px;
+    background-color: rgb(199, 161, 122, 0); 
+    border: 1;
+    line-height:15px;
+    padding:15px 26px 15px 26px;
+    align-self:center;
+
+} 
+.accordion-item { 
+    background-color: transparent;
+    color: rgb(225 224 244);
+    line-height: 25.5px;
+    font-size: 17px;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    box-sizing: border-box;
+
+}
+
+.accordion-button {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 24px;
+    font-size: 400;
+    text-align: left;
+    cursor: pointer;
+    letter-spacing: 0.48px;
+    line-height: 29.52px;
+    background-color: transparent;
+}
+
+/* .accordion-header {
+
+} */

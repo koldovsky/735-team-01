@@ -6,14 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Barista School Website Template Demo</title>
-    <link rel="shortcut icon" href="img/barista-icon.png" type="image/x-icon">
-    <link rel="stylesheet" href="css/index.css">
+    <link rel="shortcut icon" href="img/barista-icon.png" type="logo icon">
     <!--Fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,400;0,500;0,700;1,400&family=Satisfy&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,400;0,500;0,700;1,400&family=Satisfy&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/index.css">
 </head>
 
 
@@ -124,13 +123,41 @@
             </div>
         </section>
 
-        
-
-
-
+        <div class="background__imgstudy">
+            <div class="background__text">
+                <span class="text__brand">Video</span><br>
+                <h2 class="simple__text">HERE'S
+                    HOW WE STUDY AND MAKE COFFEE</h2><br>
+                <div class="logo__video"> <svg width="50" xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 96 96" x="0px" y="0px"
+                        style="max-width:100%" height="100%">
+                        <path
+                            d="M38 68.476c-0.328 0-0.652-0.080-0.948-0.244-0.648-0.34-1.052-1.020-1.052-1.756v-36.952c0-0.736 0.404-1.416 1.052-1.752 0.644-0.352 1.432-0.32 2.048 0.088l28 18.476c0.56 0.368 0.9 0.992 0.9 1.664s-0.336 1.304-0.9 1.672l-28 18.476c-0.332 0.22-0.716 0.328-1.1 0.328zM40 33.244v29.524l22.368-14.756-22.368-14.768z"
+                            fill="currentColor"></path>
+                        <path
+                            d="M48 4c24.256 0 44 19.744 44 44s-19.744 44-44 44c-24.26 0-44-19.744-44-44s19.74-44 44-44zM48 0c-26.508 0-48 21.492-48 48s21.492 48 48 48 48-21.492 48-48-21.492-48-48-48v0z"
+                            fill="currentColor"></path>
+                    </svg> </div>
+            </div>
+        </div>
+        <div class="about__team">
+            <div class="text__brand">Team</div>
+            <h2 class="simple__text">MEET OUR TEAM</h2>
+            <div class="simple__line"></div>
+            <span class="baristas__text">These are our baristas that are going to teach you all the
+                magic:</span>
+        </div>
+        <div class="guru__garry"> <img src="/img/gary.png" alt="Photo Garry" width="300">
+            <div class="about__garry"> <span> <em>Coffe guru gfasdg</em><br> </span> <span class="b-color">GARRY
+                    BEE</span><br>
+                <div class="line"></div> <span>Garry is a real coffee chef and enthusiast as he makes new recipes, which
+                    he will share with you on our course. If you want to make a perfect coffee blend and learn the
+                    secrets of delicious coffee, ask Garry. n</span>
+            </div>
+        </div>
 
         <!-- Marichka Kurhanevych-->
-        <section class="recipes">
+        <section class="recipes" id="recipes">
             <div class="recipes__info">
                 <p class="recipes__overtitle overtitle">Recipes</p>
                 <h2 class="recipes__title">OUR FAVORITE COFFEE RECIPES</h2>
@@ -142,82 +169,114 @@
                 </p>
                 <br>
                 <p class="recipes__text">If you are bored with classic lattes and cappuccinos, browse this section.</p>
-                <br>
             </div>
-            <div class="recipes__recipes-descriptions">
-                <div class="recipes__recipe recipes__latte">
-                    <h3 class="recipes__recipe-name">COLD LATTE</h3>
-                    <p class="recipes__recipe-text">To make the number one summer coffee, mix espresso, milk, syrup, and
-                        ice cubes. Blend everything until it looks like a one-piece liquid. Pour the mix into glasses
-                        and decorate the glass with whipped cream.</p>
-                    <a href="#" class="recipes__open-button button">Open</a>
+            <div class="recipes__recipe-description recipes__latte">
+                <h3 class="recipes__recipe-name">COLD LATTE</h3>
+                <p class="recipes__recipe-text">To make the number one summer coffee, mix espresso, milk, syrup, and ice cubes. Blend everything until it looks like a one-piece liquid. Pour the mix into glasses and decorate the glass with whipped cream.</p>
+                <a href="#" class="recipes__open-button button">Open</a>
+            </div>
+            <div class="recipes__recipe-description recipes__cheese-dessert">
+                <h3 class="recipes__recipe-name">CHEESE DESSERT</h3>
+                <p class="recipes__recipe-text">Boil milk, add coffee and sugar. Mix it and cool it down. Put cottage cheese in a bowl, add cold coffee, and whip it. Malt some peanuts and add them to the cheese-coffee bowl. Then, mix it and serve on small plates.</p>
+                <a href="#" class="recipes__open-button button">Open</a>
+            </div>
+
+        </section>
+
+        <!-- Nataliya Kosyk_1 -->
+        <section class="pricing" id="pricing">
+            <div class="pricing__body">
+                <div class="pricing__header">
+                    <span class="pricing__overtittle">Pricing</span>
+                    <h2 class="pricing__tittle">Our pricing plans</h2>
+                    <div class="faq__devider"></div><br>
+                    <span class="pricing__text">Learn more about the price and program of each course we offer.</span>
                 </div>
-                <div class="recipes__recipe recipes__cheese-dessert">
-                    <h3 class="recipes__recipe-name">CHEESE DESSERT</h3>
-                    <p class="recipes__recipe-text">Boil milk, add coffee and sugar. Mix it and cool it down. Put
-                        cottage cheese in a bowl, add cold coffee, and whip it. Malt some peanuts and add them to the
-                        cheese-coffee bowl. Then, mix it and serve on small plates.</p>
-                    <a href="#" class="recipes__open-button button">Open</a>
+            </div>
+
+            <div class="pricing__row">
+                <div class="pricing__column">
+                    <div class="item-pricing">
+                        <h3 class="item-pricing__tittle">Advanced barista course</h3>
+                        <span class="item-pricing__price">$350 | 14 days</span>
+                        <div>
+                            <svg width="14" height="14" viewBox="0 0 14 14" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="156" cy="156" r="156" fill="#393B3E" />
+                                <path d="M132.5 226L75 168.602L100 144.894L132.5 177.336L225 85L250 109.956L132.5 226Z"
+                                    fill="#C7A17A" />
+                            </svg>
+                            <span>For profesionals;</span>
+                        </div>
+                        <div>
+                            <img width="14" src="img/done.svg" class="" alt="icon">
+                            <span>Online and offline;</span>
+                        </div>
+                        <div>
+                            <img width="14" src="img/done.svg" class="" alt="icon">
+                            <span>Professional equipment;</span>
+                        </div>
+                        <div>
+                            <img width="14" src="img/done.svg" class="" alt="icon">
+                            <span>Coffe roasting details;</span>
+                        </div>
+                        <div>
+                            <img width="14" src="img/done.svg" class="" alt="icon">
+                            <span>Alternative breing.</span>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </section>
-        <!-- -->
+
+        <!--Timush Ruslan (start) -->
         <section class="features">
-            <div class="features__all">
+            <div class="features__total-view">
+                <div class="features__all-content">
 
-                <p class="features__features" style="font-style:italic; color:#c7a17a; font-size: 15px;">
-                    Features</p>
+                    <p class="features__features">
+                        Features</p>
+                    <h2 class="features__remember">
+                        REMEMBER THIS
+                    </h2>
+                        <div class="list__common">
 
+                            <div class="features__divider"></div>
+                            <p class="features__things">A few things you should know about coffee making.
+                            </p>
+                        </div>
+                        <div class="list-items">
 
-                <div class="features__block">
-                    <div class="list__common">
-                        <div class="list__item-one">
                             <div class="list-firstitem"> <img src="img/professionalequipment.svg"
                                     alt="professionalequipment" width="25" height="25"></div>
-                            <div class="list__fulldescription-firstitem">
-                                <div class="list_firstheading">PROFESSIONAL EQUIPMENT</div>
-                                <span class="list_description-firstitem">Without a good espresso
-                                    machine, you won't get delicious coffee. </span>
+                            <div class="list_firstheading">PROFESSIONAL EQUIPMENT</div>
+                            <div class="list_description-firstitem">Without a good espressomachine, you won't get
+                                delicious coffee.
                             </div>
+
+                            <div class="list-seconditem"> <img src="img/experiencedbarista.svg" alt="experiencedbarista"
+                                    width="25" height="25"></div>
+                            <div class="list_secondheading">EXPERIENCED BARISTAS</div>
+                            <div class="list_description-seconditem">The ability to
+                                make
+                                truly delicious coffee comes with experience and hours of training. </div>
+
+                            <div class="list-thirditem"> <img src="img/classicdrinks.svg" alt="classicdrinks" width="25"
+                                    height="25"></div>
+                            <div class="list_thirdheading">CLASSIC DRINKS ARE THE BASIS</div>
+                            <div class=" list_description-thirditem">First, you should
+                                learn how to make good espresso and then continue with other drinks. </div>
+                        </div>
                         </div>
 
-                        <h1 class="features__remember"
-                            style="font-size:inherit; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; font-weight: 300; font-size: 30px; ">
-                            REMEMBER THIS
-                        </h1>
-                        <div class="features__divider" style="height:3px;width:10%;background-color:#c7a17a"></div>
-                        <p class="features__things" style="color: rgb(91,91,91);">A few things you should know about
-                            coffee making.
-                        </p>
-                    </div>
-                    <div class="list-items">
-
-
-                        <div class="list-firstitem"> <img src="img/professionalequipment.svg"
-                                alt="professionalequipment" width="25" height="25"></div>
-                        <div class="list_firstheading" style="font-weight: 600;">PROFESSIONAL EQUIPMENT</div>
-                        <div class="list_description-firstitem" style="color: rgb(130,130,130);">Without a good espresso
-                            machine, you won't get delicious coffee. </div>
-
-                        <div class="list-seconditem"> <img src="img/experiencedbarista.svg" alt="experiencedbarista"
-                                width="25" height="25"></div>
-                        <div class="list_secondheading" style="font-weight:600">EXPERIENCED BARISTAS</div>
-                        <div class="list_description-seconditem" style="color: rgb(130,130,130);">The ability to make
-                            truly delicious coffee comes with experience and hours of training. </div>
-
-                        <div class="list-thirditem"> <img src="img/classicdrinks.svg" alt="classicdrinks" width="25"
-                                height="25"></div>
-                        <div class="list_thirdheading" style="font-weight:600;">CLASSIC DRINKS ARE THE BASIS</div>
-                        <div class=" list_description-thirditem" style="color: rgb(130,130,130);">First, you should
-                            learn how to make good espresso and then continue with other drinks. </div>
-                    </div>
-
-                    <div class="features__image-barista">
-                        <img class="features__image" src="img/baristawithgoogles.png" alt="barista-withgoogles"
-                            width="350" height="400">
-                    </div>
+                        <div class="features__image-barista">
+                            <img class="features__image" src="img/baristawithgoogles.png" alt="barista-withgoogles"
+                                width="350" height="400">
+                        </div>
+                        </div>
         </section>
-        <br>
+
 
         <section class="colage">
             <div class="colage__photos">
@@ -240,7 +299,7 @@
             </div>
 
         </section>
-
+        <!--Timush Ruslan (end) -->
         <section class="testimonials">
             <div class="testimonials__container">
                 <h3 class="testimonials__text">Testimonials</h3>
@@ -279,11 +338,76 @@
             </div>
         </section>
 
+        <!-- Nataliya Kosyk -->
+        <section class="faq" id="faq_passing">
+            <div class="faq__container">
+                <div class="faq__body">
+                    <span class="faq__overtittle">FAQ</span>
+                    <h2 class="faq__tittle">About our courses</h2>
+                    <div class="faq__devider"></div><br>
+                    <p class="faq__textsubtitle">We run our courses approximately once in 2-3 months, so be sure to apply in advance.</p><br>
+                    <p class="faq__textbody">Our groups consist of 5-10 people on average. Most courses are held offline or online + offline. If you have any questions, please read this section or contact us directly.
+                </div><br>
+                <!-- Додаємо кнопки -->
+                <div class="faq__btns-group">
+                    <a href="#prising" class="faq__btn-select button">Select a Cource</a>
+                    <a href="#contacts" class="faq__btn-contact button">Contact Us</a>
+                </div>
+            </div>
+            <!-- Block DETAILS -->
+            <div class="accordion accordion-flush" id="accordin">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingOne">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                            Who are these courses for?
+                        </button>
+                    </h2>
+                    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordion">
+                        <div class="accordion-body">We have different courses designed for beginners and professionals. It all depends on your skills and needs.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                            Do I need to buy an espresso machine to study?
+                        </button>
+                    </h2>
+                    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordion">
+                        <div class="accordion-body">A good coffee machine is a must for everyone who wants to make delicious coffee. Still, during the courses, you'll use our equipment, so you don't need to buy anything to study.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                            Do you teach ne ways of breing coffee?
+                        </button>
+                    </h2>
+                    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Yes, you can master new techniques of brewing on our Advanced Barista Course.</div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                            What if I decide to quite in the middle of the course?
+                        </button>
+                    </h2>
+                    <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">If your plans change before the start of the course, you get your money back. But, in case of any changes when the course has already started, you can only switch to another course.
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
     </main>
     <!-- Roksolana Morozova -->
     <footer id="contacts" class="footer">
         <div class="application">
-            <div class="application__left-side">
+            <div class="application__left-side container">
                 <div class="application__text contact">
                     <p class="contact__subtitle">Write us</p>
                     <h3 class="contact__title"> Contacts </h3>
@@ -299,78 +423,79 @@
                 <div class="application__form form">
                     <form class="form__cells" action="https://formspree.io/f/mlekevwg" method="POST">
                         <input type="text" placeholder="Full Name*" class="form__full-name" name="fullname" required>
-                        <br>
-                        <input type="text" placeholder="Phone number*" class="form__phone-number" name="phonenumber"
-                            required> <br>
-                        <input type="text" placeholder="E-mail*" class="form__email" name="email" required> <br>
-                        <input type="text" placeholder="Course*" class="form__course" name="course" required> <br>
+                        <input type="text" placeholder="Phone number*" class="form__phone-number" name="phonenumber" required>
+                        <input type="text" placeholder="E-mail*" class="form__email" name="email" required>
+                        <input type="text" placeholder="Course*" class="form__course" name="course" required>
                         <input type="submit" class="form__button" value="Send">
                     </form>
                 </div>
             </div>
             <div class="application__right-side">
                 <div class="application__map">
-                    <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2989.7195061415036!2d-74.40192341660807!3d41.46699859726273!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c32d5b82e35777%3A0xe416bdb30f3d4dea!2zOCBMaWxhYyBTdCwgTWlkZGxldG93biwgTlkgMTA5NDAsINCh0L_QvtC70YPRh9C10L3RliDQqNGC0LDRgtC4INCQ0LzQtdGA0LjQutC4!5e0!3m2!1suk!2sua!4v1673400843172!5m2!1suk!2sua"
-                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <iframe class=map src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2989.7195061415036!2d-74.40192341660807!3d41.46699859726273!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c32d5b82e35777%3A0xe416bdb30f3d4dea!2zOCBMaWxhYyBTdCwgTWlkZGxldG93biwgTlkgMTA5NDAsINCh0L_QvtC70YPRh9C10L3RliDQqNGC0LDRgtC4INCQ0LzQtdGA0LjQutC4!5e0!3m2!1suk!2sua!4v1673400843172!5m2!1suk!2sua"
+                        style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
         </div>
         <div class="information">
             <div class="information__boxes">
-                <div class="information__hours hours ">
+                <div class="information__box hours">
                     <img class="hours__icon" src="img/hours-icon.svg" alt="Hours">
-                    <span class="hours__title"> Opening Hours </span>
-                    <p class="hours__days"> Monday-Saturday: 11am-9pm
-                        <br> Sunday: 11am-7pm
-                    </p>
+                    <div class="hours__texts">
+                        <span class="hours__title"> Opening Hours </span>
+                        <p class="hours__days"> Monday-Saturday: 11am-9pm Sunday: 11am-7pm
+                        </p>
+                    </div>
                 </div>
-                <div class="information__location location">
+                <div class="information__box location ">
                     <img class="location__icon" src="img/location-icon.svg" alt="Location">
-                    <span class="location__title"> Location </span>
-                    <p class="location_place"> Coffee Lab School, Lilac Street
-                        <br> Avenue 8, 889859, NY, USA
-                    </p>
+                    <div class="hours__texts">
+                        <span class="location__title"> Location </span>
+                        <p class="location_place"> Coffee Lab School, Lilac Street Avenue 8, 889859, NY, USA
+                        </p>
+                    </div>
                 </div>
-                <div class="information__faq faq">
-                    <img class="faq__icon" src="img/faq-icon.svg" alt="FAQ">
-                    <span class="faq__title"> ANY QUESTIONS? </span>
-                    <p class="faq__text"> You can contact us in any convenient <br> way or read our FAQ
-                        <a href="#faq" class="faq__link">
-                            <span style="font-weight: bold;">→</span>
-                        </a>
-                    </p>
+                <div class="information__box faq_passing">
+                    <img class="faq__icon" src="img/faq-icon.svg" alt="FAQ ">
+                    <div class="hours__texts">
+                        <span class="faq__title"> ANY QUESTIONS? </span>
+                        <p class="faq__text"> You can contact us in any convenient way or read our FAQ
+                            <a href="#faq" class="faq__link">
+                                <span style="font-weight: bold;">→</span>
+                            </a>
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
+        <hr class="underline__line">
         <div class="navigation">
-            <div class="navigation__logo ">
+            <div class="navigation__logo">
                 <a href="# " class="navigation__logo-link">
-                    <img width="200" class="navigation__logo-img" src="img/barista-logo.svg" alt="Barista Logo">
+                    <img width="200 " class="navigation__logo-img" src="img/barista-logo.svg" alt="Barista Logo">
                 </a>
                 <div class="navigation__menu menu">
                     <a class="menu_item" href="#about-us">About us</a>
                     <a class="menu_item" href="#courses">Courses</a>
-                    <a class="menu_item" href="#pricing">Pricing</a>
+                    <a class="menu_item" href="#pricing ">Pricing</a>
                     <a class="menu_item" href="#recipes">Recipes</a>
                     <a class="menu_item" href="#testimonials">Testimonials</a>
-                    <a class="menu_item" href="#blog ">Blog</a>
+                    <a class="menu_item " href="#blog ">Blog</a>
                 </div>
                 <div class="navigation__social-icons social-icons">
                     <a href="https://facebook.com" class="social-icons__icon-bottom">
                         <img class="icon-bottom__facebook" src="img/facebook-icon.svg" alt="Facebook">
                     </a>
                     <a href="https://instagram.com" class="social-icons__icon-bottom">
-                        <img class="icon-bottom__instagram" src="img/instagram-icon.svg" alt="Instagram">
+                        <img class="icon-bottom__instagram " src="img/instagram-icon.svg" alt="Instagram">
                     </a>
-                    <a href=" https://youtube.com" class="social-icons__icon">
+                    <a href=" https://youtube.com" class="social-icons__icon-bottom">
                         <img class="icon-bottom__youtube" src="img/youtube-icon.svg" alt="Youtube">
                     </a>
                 </div>
             </div>
+            <hr class="underline__line">
             <div class="navigation__underline underline">
-                <hr>
                 <p class="underline__leftside">© Created by</p>
                 <p class="underline__rightside">All rights Reserved</p>
             </div>
@@ -378,6 +503,8 @@
 
     </footer>
     <!-- Roksolana Morozova -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js " integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN " crossorigin="anonymous "></script>
+
 </body>
 
 </html>
