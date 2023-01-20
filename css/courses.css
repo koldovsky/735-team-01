@@ -1,6 +1,7 @@
 .courses {
     background-color: #f2f0ec;
-    min-height: 850px;
+    min-height: 1000px;
+    padding-top: 9%;
 }
 
 .courses__overtitle {
