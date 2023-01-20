@@ -27,9 +27,6 @@
 	font-family: 'Roboto', sans-serif;
 	font-weight: 500;
 }
-.item__decoration {
-	font-family: 'Roboto', sans-serif;
-}
 .item__name {
 	font-family: 'Bebas Neue', cursive;
 	font-size: 28px;
@@ -49,4 +46,8 @@
 	font-family: 'Roboto', sans-serif;
 	font-weight: 700;
 	color: rgb(199, 161, 122);
+}
+.item__decoration{
+	color: rgb(199, 161, 122);
+	font-size: 17px;
 }
