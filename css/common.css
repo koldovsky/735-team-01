@@ -49,6 +49,7 @@ h2 {
 .divider {
     margin: auto;
     height: 3px;
+    margin-top: -5px;
     width: 5%;
     background-color: var(--divider-color);
 }
