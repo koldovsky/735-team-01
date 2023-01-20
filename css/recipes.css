@@ -1,15 +1,17 @@
-.recipes{
-    background-color: var(--light-background-color); 
+.recipes {
+    background-color: var(--light-background-color);
 }
 
-.recipes__top-line{
-    background-color: var(--light-title-color);    
+.recipes__top-line {
+    background-color: var(--light-title-color);
+    display: block;
 }
 
-.recipes__content{
-    padding:90px 24px 90px 24px;
-    background-color: var(--light-background-color); 
+.recipes__content {
+    padding: 90px 24px 90px 24px;
+    background-color: var(--light-background-color);
 }
+
 .recipes__info {
     margin-bottom: 30px;
 }
@@ -26,12 +28,12 @@
 }
 
 .recipes__divider {
-    height:3px;
+    height: 3px;
     width: 15%;
     margin-left: 0px;
     margin-top: 15px;
     margin-bottom: 15px;
-    line-height:25.5px;
+    line-height: 25.5px;
 }
 
 
@@ -40,7 +42,7 @@
     font-size: 19px;
     font-weight: 500;
     line-height: 28.5px;
-    margin-bottom:0px;
+    margin-bottom: 0px;
 }
 
 .recipes__text {
@@ -48,7 +50,7 @@
     font-size: 17px;
     font-weight: 400;
     line-height: 25.5px;
-    margin-bottom:0px;
+    margin-bottom: 0px;
 }
 
 
@@ -58,7 +60,7 @@
     display: flex;
     flex-direction: column;
     padding: 40px 28px 40px 28px;
-    height:fit-content;
+    height: fit-content;
 
 }
 
@@ -81,7 +83,7 @@
     font-family: "Bebas Neue", cursive;
     font-weight: 400;
     letter-spacing: 0.56px;
-    line-height:33.6px;
+    line-height: 33.6px;
 
 }
 
@@ -100,13 +102,15 @@
     padding: 15px 26px 15px 26px;
     align-self: center;
 }
+
 .recipes__open-button:hover {
     color: var(--hover-button-text-color);
-    background-color:var(--hover-button-background-color);
+    background-color: var(--hover-button-background-color);
 
 }
+
 @media(min-width: 767px) {
-    .recipes__overtitle{
+    .recipes__overtitle {
         line-height: 24px;
     }
 
@@ -114,15 +118,17 @@
         letter-spacing: 1.16px;
         line-height: 63.8px;
     }
+
     .recipes__latte {
-    margin-bottom:35px;
+        margin-bottom: 35px;
     }
+
     .recipes__recipe-name {
         font-size: 34px;
         letter-spacing: 0.68px;
         line-height: 40.8px;
     }
-     
+
 }
 
 @media(min-width: 768px) {
@@ -130,33 +136,34 @@
     .recipes__content {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        grid-column-gap:33px;
+        grid-column-gap: 33px;
     }
 
     .recipes__info {
         grid-column: 1/3;
     }
 
-    .recipes__overtitle{
+    .recipes__overtitle {
         line-height: 26px;
     }
-    
+
     .recipes__title {
         letter-spacing: 0.96px;
         line-height: 52.8px;
     }
-   
+
     .recipes__recipe-name {
         font-size: 31px;
         letter-spacing: 0.62px;
         line-height: 37.2px;
     }
-   
-    .recipes__recipe-description{
-        margin-bottom:0px;
-        padding-top:54px;  
-        padding-bottom:50px; 
+
+    .recipes__recipe-description {
+        margin-bottom: 0px;
+        padding-top: 54px;
+        padding-bottom: 50px;
     }
+
     .recipes__latte {
         grid-column: 1/2;
     }
@@ -164,11 +171,11 @@
     .recipes__cheese-dessert {
         grid-column: 2/3;
     }
-  
+
 }
 
 @media(min-width: 991px) {
-    .recipes__overtitle{
+    .recipes__overtitle {
         line-height: 24px;
     }
 
@@ -190,19 +197,19 @@
     .recipes__content {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        grid-column-gap:33px;
-        padding:90px 40px 90px 40px;
-        padding-left:0px;
+        grid-column-gap: 33px;
+        padding: 90px 40px 90px 40px;
+        padding-left: 0px;
     }
 
     .recipes__info {
         grid-column: 1/2;
-        margin-left:32px;
-        margin-bottom:0px;
+        margin-left: 32px;
+        margin-bottom: 0px;
     }
-   
+
     .recipes__recipe-description {
-    padding:70px 30px 70px 30px;
+        padding: 70px 30px 70px 30px;
     }
 
     .recipes__latte {
@@ -214,9 +221,10 @@
         grid-column: 3/4;
     }
 
-    
+
 }
 
-.recipes__bottom-line{
-    background-color: var(--dark-background-color);   
-   }
+.recipes__bottom-line {
+    background-color: var(--dark-background-color);
+    display: block;
+}
