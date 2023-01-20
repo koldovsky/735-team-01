@@ -78,8 +78,6 @@
     font-family: 'Roboto', sans-serif;
 }
 
-@media (max-width: 989px) {}
-
 @media (min-width: 990px) {
     .header__nav {
         flex-direction: row;
