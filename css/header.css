@@ -1,7 +1,7 @@
 .header {
     background-image: linear-gradient(rgba(32, 32, 32, 0.925), rgba(32, 32, 32, 0.925)), url(../img/logo-coffee.png);
     background-size: cover;
-    background-position: center;
+    background-position: top;
     min-height: 725px;
 }
 
@@ -11,23 +11,21 @@
     padding-bottom: 30px;
     padding-left: 15px;
     padding-right: 15px;
-    margin-left: 151px;
-    margin-right: 151px;
 }
 
 .header__logo-link {
-    height: 32px;
+    height: 25px;
     line-height: 16px;
-    margin-left: 15px;
+    margin-left: -100px;
     margin-right: 15px;
-    width: 19%;
+    width: 18%;
 }
 
 .header__menu {
-    width: 440px;
+    width: 550px;
     display: flex;
     justify-content: space-around;
-    height: 37px;
+    height: 48px;
     margin-block-end: -12px;
 }
 
@@ -38,6 +36,12 @@
     color: var(--menu-item-color);
 }
 
+.header__social-icons {
+    margin-top: -5px;
+    margin-right: -7.5px;
+    margin-left: -7.5px;
+}
+
 .social-icons__icon {
     font-size: 30px;
     text-decoration: none;
@@ -45,13 +49,13 @@
 }
 
 .header__banner {
-    padding-top: 150px;
+    padding-top: 200px;
     padding-bottom: 300px;
     text-align: center;
 }
 
 .header__overtitle {
-    font-size: 24px;
+    font-size: 20px;
     text-align: center;
     text-transform: none;
     color: var(--overtitle-color);
@@ -59,7 +63,7 @@
 }
 
 .header__title {
-    font-size: 115px;
+    font-size: 100px;
     text-align: center;
     color: var(--button-text-color);
     font-family: 'Bebas Neue', cursive;
@@ -67,7 +71,8 @@
 }
 
 .header_text {
-    font-size: 19px;
+    margin-top: 12px;
+    font-size: 17px;
     text-align: center;
     color: var(--button-text-color);
     font-family: 'Roboto', sans-serif;
