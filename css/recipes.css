@@ -27,6 +27,7 @@
 }
 
 .recipes__divider {
+    height: 3px;
     width: 15%;
     margin-left: 0px;
     margin-top: 15px;
