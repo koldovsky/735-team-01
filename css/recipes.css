@@ -1,9 +1,13 @@
 
 
-
 .recipes{
-    background-color: var(--light-background-color);  
+    background-color: var(--light-background-color); 
 }
+
+.recipes__top-line{
+    background-color: var(--light-title-color);    
+}
+
 .recipes__content{
     padding:90px 24px 90px 24px;
 }
@@ -206,6 +210,9 @@
         grid-column: 3/4;
     }
 
- 
-
+    
 }
+
+.recipes__bottom-line{
+    background-color: var(--dark-background-color);   
+   }
