@@ -9,26 +9,26 @@
 }
 
 :root {
-    --main-title-color: rgb(255, 255, 255);
-    --menu-item-color: rgb(255, 255, 255);
-    --overtitle-color: rgb(199, 161, 122);
-    --social-icon-color: rgb(199, 161, 122);
-    --title-color: rgb(39, 41, 43);
+    --accent-background-color: #2e3032;
     --button-text-color: rgb(255, 255, 255);
     --button-background-color: rgb(199, 161, 122);
-    --divider-color: #c7a17a;
-    --light-background-color: #f2f0ec;
-    --light-title-color: rgb(255, 255, 255);
     --dark-subtitle-color: rgb(91, 91, 91);
     --dark-text-color: rgb(130, 130, 130);
-    --light-text-color: rgb(230, 230, 230);
     --dark-background-color: #27292b;
-    --accent-background-color: #2e3032;
-    --transparent-background-color: rgba(255, 255, 255, 0.01);
+    --divider-color: #c7a17a;
+    --main-title-color: rgb(255, 255, 255);
+    --menu-item-color: rgb(255, 255, 255);
     --form-textcolor: rgb(225, 224, 224);
-    font-family: 'Roboto', sans-serif;
-    --hover-button-text-color:rgb(33,37,41);
+    --hover-button-text-color: rgb(33, 37, 41);
     --hover-button-background-color: rgb(255, 255, 255);
+    --light-background-color: #f2f0ec;
+    --light-title-color: rgb(255, 255, 255);
+    --light-text-color: rgb(230, 230, 230);
+    --overtitle-color: rgb(199, 161, 122);
+    --social-icon-color: rgb(199, 161, 122);
+    --transparent-background-color: rgba(255, 255, 255, 0.01);
+    --title-color: rgb(39, 41, 43);
+    font-family: 'Roboto', sans-serif;
 }
 
 .overtitle {
