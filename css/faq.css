@@ -1,5 +1,5 @@
  .faq {
-    background-size: cover;
+    /* background-size: cover; */
     background: linear-gradient(rgba(39, 41, 43, 0.93), rgba(39, 41, 43, 0.93)), url(../img/faq_part.png);
     background-attachment: fixed;
     background-position: 50% 20%;
@@ -60,11 +60,12 @@
 
 .faq__btns-group {
     display: flex;
+    margin: -10px;
 }
 
 .faq__btn-select {
     font-size: 15px;
-    height: 41px;
+    height: 45px;
     width: 160px;
     left: 0px;
     font-family: 'Roboto', sans-serif;
@@ -76,15 +77,14 @@
     text-align: center;
     border: 0;
     line-height: 15px; 
-    padding: 15px 26px 15px 26px;
-    align-self:center;
+    padding: 15px 24px 15px 24px;
     margin: 10px;
    
 }
 
  .faq__btn-contact {
     font-size: 15px;
-    height: 41px;
+    height: 45px;
     width: 124.875px;
     left: 0px;
     font-family: 'Roboto', sans-serif;
@@ -95,13 +95,12 @@
    
     border-color: var(--button-background-color);
     color: var(--button-background-color);
-    margin-left: 15px;
+    /* margin-left: 15px; */
     background-color: rgb(199, 161, 122, 0); 
     border: 2px solid;
     line-height: 15px;
-    padding: 15px 20px 15px 20px;
-    align-self: center;
-
+    padding: 15px 15px 15px 15px;
+    margin: 10px;
 } 
 
 .accordion {
@@ -110,6 +109,7 @@
     position: relative;
     box-sizing: border-box;
     font-size: 17px;
+    margin-top: 50px;
 
 }
 
@@ -151,7 +151,6 @@
     
 }
 
-
 @media (max-width: 767px) {
     .faq__btns-group {
         display: flex;
@@ -159,10 +158,5 @@
         align-items: flex-start;
         justify-content: flex-start;   
     }
-    .faq__btn-contact {
-        background-color: var(--button-background-color);
-        color: var(--main-title-color);
-        border: 0;
-    }
-    
+
 } 
