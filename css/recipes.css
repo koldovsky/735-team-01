@@ -197,15 +197,15 @@
     .recipes__content {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        grid-column-gap: 33px;
-        padding: 90px 40px 90px 40px;
-        padding-left: 0px;
+        grid-column-gap: 33px;   
+        padding-left: 0; 
+    
     }
 
     .recipes__info {
         grid-column: 1/2;
         margin-left: 32px;
-        margin-bottom: 0px;
+        margin-bottom: 0;
     }
 
     .recipes__recipe-description {
@@ -221,6 +221,14 @@
         grid-column: 3/4;
     }
 
+
+}
+
+@media(min-width: 1093px) {
+
+    .recipes__cheese-dessert {
+        padding-bottom:45px;  
+    }
 
 }
 
