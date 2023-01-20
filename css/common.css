@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Satisfy&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -68,6 +68,7 @@ h2 {
     h2 {
         font-size: 58px;
     }
+
     .overtitle {
         font-size: 24px;
     }
@@ -77,6 +78,7 @@ h2 {
     h2 {
         font-size: 48px;
     }
+
     .overtitle {
         font-size: 26px;
     }
@@ -86,6 +88,7 @@ h2 {
     h2 {
         font-size: 58px;
     }
+
     .overtitle {
         font-size: 24px;
     }
