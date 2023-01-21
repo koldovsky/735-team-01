@@ -111,6 +111,7 @@
      box-sizing: border-box;
      font-size: 17px;
      margin-top: 50px;
+     max-width: 339px;
 
  }
 
@@ -126,8 +127,6 @@
 
  }
 
- 
-
  .accordion-button {
      font-family: 'Bebas Neue', cursive;
      font-size: 24px;
@@ -141,8 +140,10 @@
  }
 
  .accordion-body {
-     color: #fff;
-     background-color: transparent;
+    color: #fff;
+    background-color: transparent;
+    padding-left: 0;
+    padding-top: 20px;
  }
 
 
@@ -155,17 +156,23 @@
          /* flex: 1; */
     }
 
+    .faq__body {
+
+
+    }
+
     .faq__container {
         width: 337px;
     }
 
     .accordion {
         margin: 35px;
-        margin-left: 160px;
+        margin-left: 180px;
     }
 
     .accordion-button {
         padding-left: 0;
+        padding-right: 20px;
     }
  }
 
