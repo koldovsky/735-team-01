@@ -2,7 +2,7 @@
     background: linear-gradient(rgba(39, 41, 43, 0.93), rgba(39, 41, 43, 0.93)), url(../img/faq_part.png);
     background-size: cover;
     background-attachment: fixed;
-    background-position: 50% 20%;
+    background-position: 50% 50%;
     padding: 100px 24px 100px 24px; 
     margin: auto;
     padding-bottom: 70px;
@@ -143,21 +143,21 @@
     background-color: transparent;
 }
 
-@media (min-width: 768px) {
-    .fag {
-        display: grid;
-        grid-template-columns: 2fr 1fr;
-        grid-column-gap:50px;
-    }    
-    
-}
-
-@media (max-width: 767px) {
+@media (min-width: 767px) {
     .faq__btns-group {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
         justify-content: flex-start;   
     }
+}
 
+@media (mix-width: 768px) {
+    
+    .fag {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        grid-column-gap:50px;
+    }    
+    
 } 
