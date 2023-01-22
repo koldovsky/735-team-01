@@ -1,0 +1,29 @@
+.courses {
+    background-color: #f2f0ec;
+    min-height: 900px;
+    padding-top: 7%;
+}
+
+.courses__overtitle {
+    font-size: 24px;
+    text-align: center;
+    text-transform: none;
+    color: var(--overtitle-color);
+    font-family: 'Satisfy', cursive;
+}
+
+.courses__title {
+    font-size: 58px;
+    text-align: center;
+    color: var(--title-color);
+    font-family: 'Bebas Neue', cursive;
+    text-transform: uppercase;
+}
+
+.courses__text {
+    margin-top: 12px;
+    font-size: 17px;
+    text-align: center;
+    color: var(--title-color);
+    font-family: 'Roboto', sans-serif;
+}
