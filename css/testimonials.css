@@ -26,6 +26,7 @@
 	font-size: 19px;
 	font-family: 'Roboto', sans-serif;
 	font-weight: 500;
+	margin-bottom: 40px;
 }
 .item__name {
 	font-family: 'Bebas Neue', cursive;
@@ -50,4 +51,26 @@
 .item__decoration{
 	color: rgb(199, 161, 122);
 	width: 50px;
+}
+
+/*-----------------------------*/
+.testimonials__carousel{
+	display: grid;
+	grid-template-columns: 30px 1fr 30px;
+}
+.testimonials__slide__container{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.content__item{
+	padding: 20px;
+	border: 2px solid var(--form-textcolor);
+	min-height: 320px;
+	max-width: 45%;
+}
+.carousel__btn__prev, .carousel__btn__next{
+	width: 30px;
+	height: 30px;
+	color: rgb(199, 161, 122);
 }
