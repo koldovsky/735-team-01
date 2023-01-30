@@ -26,6 +26,7 @@
 	font-size: 19px;
 	font-family: 'Roboto', sans-serif;
 	font-weight: 500;
+	margin-bottom: 40px;
 }
 .item__name {
 	font-family: 'Bebas Neue', cursive;
@@ -50,4 +51,16 @@
 .item__decoration{
 	color: rgb(199, 161, 122);
 	width: 50px;
+}
+
+/*-----------------------------*/
+
+.testimonials__slide__container{
+}
+.content__item{
+	padding: 20px;
+	border: 2px solid var(--form-textcolor);
+	width: 45%;
+	margin: 0 auto;
+	min-height: 250px;
 }
