@@ -1,24 +1,38 @@
 .pricing {
     background-color: var(--title-color);
+    height: 800px;
+   
 }
 
 .pricing__overtittle {
     font-size: 26px;
     font-weight: 400;
     line-height: 26px;
-    text-transform: none;
+    /* text-transform: none; */
     color: var(--overtitle-color);
     font-family: 'Satisfy', cursive;
-    box-sizing: border-box;
-    vertical-align: baseline;
-
+    /* box-sizing: border-box;
+    vertical-align: baseline; */
+    text-align: center;
 }
+
+.pricing__devider {
+    background-color: var(--overtitle-color);
+    height: 3px;
+    width: 5%;
+    line-height: 50px;
+    margin: auto;
+    
+}
+
 .pricing__tittle {
     color: var(--button-text-color);
     font-family: 'Bebas Neue', cursive;
     font-size: 38px;
     font-weight: 400;
     text-align: left;
+    margin-top: 20px;
+    text-align: center;
 }
 .pricing__text {
      color: var(--button-text-color);
@@ -28,10 +42,14 @@
      font-weight: 500;
      line-height: 28.5px;
      text-align: center;
+     margin-bottom: 45px;
 }
 
 .item-pricing__tittle {
     color: rgb(230,230,230);
+    font-size: 24px;
+    /* padding-left: 5px; */
+    padding-bottom: 15px;
    
 }
 
@@ -47,11 +65,24 @@
 }
 
 .carousel-item {
-background:rgba(255, 255, 255, 0.04);
+    background:rgba(255, 255, 255, 0.04);
+    width: 272px;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 400;
+    letter-spacing: 0.48px;
+    line-height: 29.52px;
+    text-align: left;
+    box-sizing: border-box;
+    padding-top: 30px;
+    padding-left: px;
+    padding-right: 35px;
+
 }
-.carousel-inner {
+
+
+/* .carousel-inner {
     placeholder
-}
+} */
 
 
 .check-mark {
@@ -62,8 +93,18 @@ background:rgba(255, 255, 255, 0.04);
     font-weight: 400;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
- 
-}
-.check-mark {
     margin-bottom: 16px;
+}
+.check-mark__text {
+    font-size: 17px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    list-style: 25.5px;
+    text-align: left;
+    margin-left: 10px;
+}
+
+.carousel-inner__button {
+    margin-top: 50px;
+    margin-bottom: 70px;
 }
