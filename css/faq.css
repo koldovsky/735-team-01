@@ -222,3 +222,9 @@
         padding-left: 0;
     }
  }
+
+ @media (min-width: 359px) {
+    .accordion-button.collapsed {
+        padding-left: 0;
+    }
+}
