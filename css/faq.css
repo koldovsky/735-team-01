@@ -1,4 +1,6 @@
  .faq {
+    box-sizing: border-box;
+    position: 0;
      background: linear-gradient(rgba(39, 41, 43, 0.93), rgba(39, 41, 43, 0.93)), url(../img/faq_part.png);
      background-size: cover;
      background-attachment: fixed;
@@ -164,12 +166,39 @@
          align-items: center;
          justify-content: center;
          /* flex: 1; */
+         padding-top: 140px;
+         padding-bottom: 140px;
+
+    }
+    .accordion-button.collapsed {
+        font-size: 26px;
+        letter-spacing: 0.52px;
+        line-height: 31.98px;
+        text-align: left;
+        font-family: "Bebas Neue", cursive;
+    }
+
+    .accordion-button:not(.collapsed) {
+        font-size: 26px;
+        letter-spacing: 0.52px;
+        line-height: 31.98px;
+        text-align: left;
+        font-family: "Bebas Neue", cursive;
     }
 
 
     .faq__container {
-        width: 337px;
+        width: 580px;
     }
+    .faq__tittle {
+       font-size: 55px; 
+       letter-spacing: 0.96px;
+       line-height: 52.8px;
+       font-family: "Bebas Neue", cursive;
+       font-weight: 400;
+    }
+    
+    
 
     .accordion {
         margin: 35px;
