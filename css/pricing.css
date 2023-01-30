@@ -74,16 +74,15 @@
     text-align: left;
     box-sizing: border-box;
     padding-top: 30px;
-    padding-left: px;
+    /* padding-left: 85px; */
     padding-right: 35px;
+    margin-left: 25px;
 
 }
 
-
-/* .carousel-inner {
-    placeholder
-} */
-
+.carousel-control-prev {
+    padding: 5px;
+}
 
 .check-mark {
     font-size: 17px;
