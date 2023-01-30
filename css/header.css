@@ -86,3 +86,18 @@
         flex: 1;
     }
 }
+@media (max-width: 989px) {
+    .header__menu {
+        display: none;
+    }
+    .header__social-icons {
+        display: none;
+    }
+    .header__logo-link {
+        height: 25px;
+        line-height: 16px;
+        margin-left: -100px;
+        margin-right: 15px;
+        width: 18%;
+    }
+}
