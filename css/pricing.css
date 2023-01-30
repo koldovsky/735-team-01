@@ -1,6 +1,6 @@
-/* .pricing {
+.pricing {
     background-color: var(--title-color);
-} */
+}
 
 .pricing__overtittle {
     font-size: 26px;
@@ -33,4 +33,18 @@
 .item-pricing__tittle {
     color: rgb(230,230,230);
    
+}
+
+.check-mark {
+    font-size: 17px;
+    color: var(--form-textcolor);
+    line-height: 25.5px;
+    text-align: left;
+    font-weight: 400;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+ 
+}
+.check-mark {
+    margin-bottom: 16px;
 }
