@@ -35,6 +35,25 @@
    
 }
 
+.item-pricing__price {
+    font-size: 18px;
+    line-height: 25.5px;
+    color: var(--overtitle-color);
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: normal;
+    text-align: left;
+    font-weight: 500px;
+    
+}
+
+.carousel-item {
+background:rgba(255, 255, 255, 0.04);
+}
+.carousel-inner {
+    placeholder
+}
+
+
 .check-mark {
     font-size: 17px;
     color: var(--form-textcolor);
