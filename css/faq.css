@@ -104,15 +104,26 @@
  }
 
  .accordion {
-     /* display: block; */
+     display: block;
      text-align: left;
      position: relative;
      box-sizing: border-box;
      font-size: 17px;
      margin-top: 50px;
      max-width: 339px;
+     --bs-accordion-active-bg: transparent;   
 
  }
+
+.accordion-button:not(.collapsed) {
+    color: var(--main-title-color);
+    padding-left: 0;
+}
+
+/* .accordion-button collapsed {
+    padding-left: 0;
+} */
+
 
  .accordion-item {
      background-color: transparent;
@@ -177,5 +188,8 @@
          flex-direction: column;
          align-items: flex-start;
          justify-content: flex-start;
+    }
+    .accordion-button.collapsed {
+        padding-left: 0;
     }
  }
