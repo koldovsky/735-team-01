@@ -2,7 +2,7 @@
     background-image: linear-gradient(rgba(32, 32, 32, 0.925), rgba(32, 32, 32, 0.925)), url(../img/logo-coffee.png);
     background-size: cover;
     background-position: top;
-    min-height: 725px;
+    width: 100%;
 }
 
 .header__nav {
