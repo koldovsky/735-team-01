@@ -1,7 +1,11 @@
 .pricing {
     background-color: var(--title-color);
-    height: 800px;
+    height: 1000px;
    
+}
+
+.pricing__header__tittle {
+    padding-top: 90px;
 }
 
 .pricing__overtittle {
@@ -49,8 +53,12 @@
     color: rgb(230,230,230);
     font-size: 24px;
     /* padding-left: 5px; */
-    padding-bottom: 15px;
+    padding-bottom: 10px;
    
+}
+
+.carousel-item__price {
+    padding-bottom: 10px;
 }
 
 .item-pricing__price {
@@ -64,19 +72,26 @@
     
 }
 
+.carousel-inner {
+    /* position: 0; */
+    margin: 35px;
+}
+
+
 .carousel-item {
     background:rgba(255, 255, 255, 0.04);
-    width: 272px;
+    width: 252px;
     font-family: 'Bebas Neue', cursive;
     font-weight: 400;
     letter-spacing: 0.48px;
     line-height: 29.52px;
     text-align: left;
     box-sizing: border-box;
-    padding-top: 30px;
+    /* padding-top: 30px;
     /* padding-left: 85px; */
-    padding-right: 35px;
-    margin-left: 25px;
+    /* padding-right: 35px; */
+    /* margin-left: 25px; */ 
+    padding: 29px 27px 29px 27px;
 
 }
 
@@ -106,4 +121,23 @@
 .carousel-inner__button {
     margin-top: 50px;
     margin-bottom: 70px;
+}
+
+.carousel__btn-select {
+    font-size: 15px;
+    height: 45px;
+    width: 160px;
+    left: 0px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: var(--button-text-color);
+    letter-spacing: 0.3px;
+    text-decoration: none;
+    background-color: var(--button-background-color);
+    text-align: center;
+    border: 0;
+    line-height: 15px;
+    padding: 15px 24px 15px 24px;
+    margin: 0;
+
 }
