@@ -13,8 +13,8 @@
 }
 
 .cofee-item{
-width:370px;
-height:300px;
+width:270px;
+height:200px;
 }
 .carousel-slide-container {
     display: flex;
@@ -22,7 +22,3 @@ height:300px;
     align-items: center;
     justify-content:center;   
 }
-.menu__item clock{
-    text-align: center;
-}
-
