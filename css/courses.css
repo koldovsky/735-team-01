@@ -1,26 +1,3 @@
-body {
-    font-family: 'Lato', sans-serif;
-    margin: 0;
-    transition: transform 0.3s ease;
-  }
-  
-body.show-nav {
-    /* Width of nav */
-    transform: translateX(200px);
-  }
-
-nav {
-    border-right: 1px solid rgb(255, 255, 255);
-    color: #fff;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 200px;
-    height: 100%;
-    z-index: 100;
-    transform: translateX(-100%);
-}
-
 .courses {
     background-color: #f2f0ec;
     min-height: 900px;
