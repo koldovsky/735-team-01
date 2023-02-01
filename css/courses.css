@@ -27,3 +27,7 @@
     color: var(--title-color);
     font-family: 'Roboto', sans-serif;
 }
+
+.courses__background-img {
+    width: 100%;
+}
