@@ -86,14 +86,13 @@
         flex: 1;
     }
 }
+
 @media (max-width: 990px) {
     .header__menu {
         display: none;
     }
+
     .header__social-icons {
         display: none;
-    }
-    .header__logo-link {
-        
     }
 }
