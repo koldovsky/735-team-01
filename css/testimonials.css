@@ -3,6 +3,8 @@
 	width: 10%;
 	background-color: var(--divider-color);
 	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
 .testimonials__text {
 	text-align: center;
@@ -65,21 +67,26 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	margin-bottom: 30px;
 }
 .content__item{
 	padding: 30px;
 	border: 2px solid var(--form-textcolor);
 	min-height: 100%;
 	max-width: 48%;
+	padding-bottom: 0px;
 }
 .carousel__btn__prev, .carousel__btn__next{
     margin: 15px;
+	padding: 10px;
+	padding-top: 1px;
 	width: 30px;
 	height: 30px;
 	color: rgb(199, 161, 122);
-    display: flex;
+	border: none;
 }
 .btn{
     display: flex;
     align-items: center;
+	justify-content: center;
 }
