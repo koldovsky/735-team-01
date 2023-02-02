@@ -81,9 +81,19 @@
         justify-content: space-around;
         flex: 1;
     }
+
+    .menu-btn {
+        display: none;
+    }
 }
 
 @media (max-width: 990px) {
+    .header__nav {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row-reverse;
+    }
+
     .header__menu {
         display: none;
     }
@@ -91,7 +101,7 @@
     .header__social-icons {
         display: none;
     }
-    
+
     .header__logo-link {
         display: flex;
         align-items: flex-start;
