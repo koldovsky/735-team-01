@@ -2,7 +2,7 @@
     display: flex;
     justify-content:center;
     padding:15px;
-    background-color:var(--overtitle-color);
+    background-color:var(--menu-item-color);
 }
 .btn-prev{
     transform:rotate(180deg);
@@ -22,4 +22,3 @@ height:200px;
     align-items: center;
     justify-content:center;   
 }
-

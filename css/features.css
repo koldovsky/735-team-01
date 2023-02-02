@@ -95,66 +95,52 @@
     align-items: center;
     padding: 10px;
 }
+.list-full{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
 .features__image-barista{
     background-image: url(../img/continent.webp);
     background-size: cover;
     background-position: center;
+    size: 1em;
     margin: auto;
 }
 .features__image{
-    width: 800px;
-    height: 700px;
+    width: 100%;
+    height: 300px;
+    size: 1em;
 }
-.features__total-view{ 
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin:10px;
-    padding: 10px;
-}
-.colage__photos{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: column wrap;
-    align-content: space-between;
-    margin: 10px;
-    padding: 10px;
-    gap: 10px;
-}
-@media(min-width:400px){
-    .features__total-view{
-        display:flex;
-        flex-direction:row;
-        align-self:center;
+@media (min-width: 768px) {
+    
+    .list-items,
+    .list-items-two,
+    .list-items-three,
+    .list-full
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
     }
 }
-.colage__firstimage{
-    padding: 10px;
-    width:33%;
-    height:25%;
+@media (min-width: 768px) {
+    .features__image-barista {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: wrap;
+        
+    }
 }
-.colage__secondimage{
-    padding: 10px;
-    width:33%;
-    height:25%;
+
+.features__total-view{ 
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    padding: 5px;
+    margin: 5px;
 }
-.colage__thirdimage{
-    padding: 10px;
-    width:33%;
-    height:25%;
-}
-.colage__fourthimage{
-    padding: 10px;
-    width:33%;
-    height:25%;
-}
-.colage__fifthimage{
-    padding: 10px;
-    width:33%;
-    height:25%;
-}
-.colage__sixthimage{
-    padding: 10px;
-    width:33%;
-    height:25%;
+.time{
+    text-align: center;
+    padding-left: 100px;
 }
