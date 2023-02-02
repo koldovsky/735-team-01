@@ -1,5 +1,6 @@
 @import url(common.css);
 @import url(header.css);
+@import url(header-burger.css);
 @import url(courses.css);
 @import url(recipes.css);
 @import url(pricing2.css);
@@ -8,5 +9,5 @@
 @import url(faq.css);
 @import url(products.css);
 @import url(study.css);
-@import url(footer.css);
 @import url(colage-carousel.css);
+@import url(footer.css);
