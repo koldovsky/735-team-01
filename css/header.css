@@ -96,9 +96,10 @@
         display: none;
     }
     
-    .header__nav {
+    .header__logo-link {
         display: flex;
         align-items: flex-start;
         justify-content: flex-start;
+        margin-left: 0px;
     }
 }
