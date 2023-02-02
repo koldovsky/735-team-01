@@ -16,15 +16,13 @@
 .header__logo-link {
     height: 25px;
     line-height: 16px;
-    margin-left: -100px;
-    margin-right: 15px;
     width: 18%;
 }
 
 .header__menu {
     width: 500px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     height: 48px;
     margin-block-end: -12px;
 }
@@ -38,8 +36,6 @@
 
 .header__social-icons {
     margin-top: -5px;
-    margin-right: -7.5px;
-    margin-left: -7.5px;
 }
 
 .social-icons__icon {
@@ -96,9 +92,10 @@
         display: none;
     }
     
-    .header__nav {
+    .header__logo-link {
         display: flex;
         align-items: flex-start;
         justify-content: flex-start;
+        margin-left: 0px;
     }
 }
