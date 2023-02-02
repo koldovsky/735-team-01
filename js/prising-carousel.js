@@ -122,36 +122,39 @@
 
     let currentSlideIdx = 0;
 
-    function renderSlides(pricingSlides){
-        
-        const slideContainer=document.querySelector('.pricing__slide-container');
-        slideContainer.innerHTML=pricingSlides[currentSlideIdx];
-        if (window.innerWidth >= 768){
-            const secondSlideIdx= currentSlideIdx+1 >= pricingSlides.length ? 0 : currentSlideIdx+1;
+    function renderSlides() {
+        const slideContainer = document.querySelector('.pricing__slide-container');
+        slideContainer.innerHTML =  pricingSlides[currentSlideIdx];
+        if (window.innerWidth >= 767) {
+            const secondSlideIdx = currentSlideIdx + 1 >= pricingSlides.length ? 0 : currentSlideIdx + 1;
             slideContainer.innerHTML += pricingSlides[secondSlideIdx];
+            if (window.innerWidth >= 991) {
+                const thirdSlideIdx = secondSlideIdx + 1 >= pricingSlides.length ? 0 : secondSlideIdx + 1;
+                slideContainer.innerHTML += pricingSlides[thirdSlideIdx];
+            }
         }
-    };
+    }
 
-    function nextSlide(){
-        currentSlideIdx++;
-        if (currentSlideIdx >= pricingSlides.length){
-            currentSlideIdx = 0;
-        };
-        renderSlides(pricingSlides);
-    };    
-    
+    function nextSlide() {
+        currentSlideIdx = currentSlideIdx + 1 >= pricingSlides.length ? 0 : currentSlideIdx + 1;
+        renderSlides();
+    }
 
-    renderSlides(pricingSlides);
+    // setInterval(nextSlide, 3000);
 
-    const btnNext=document.querySelector('.slick-next');
-    btnNext.addEventListener('click', nextSlide)
+    renderSlides();
 
+    const btnNext = document.querySelector('.slick-next');
+    btnNext.addEventListener('click', nextSlide);
 
-    const btnPrev=document.querySelector('.slick-prev');
+    const btnPrev = document.querySelector('.slick-prev');
     btnPrev.addEventListener('click', () => {
-        currentSlideIdx=currentSlideIdx - 1 < 0 ? pricingSlides.length-1 : currentSlideIdx-1;
-        renderSlides(pricingSlides);
+        currentSlideIdx = currentSlideIdx - 1 < 0 ? pricingSlides.length - 1 : currentSlideIdx - 1;
+        renderSlides();
     });
+
+    window.addEventListener('resize', renderSlides);
+
 
 
 })();
