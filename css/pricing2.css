@@ -90,7 +90,7 @@
 
 .pricing__carousel {
 	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-columns: 1fr 600px 1fr;
 }
 
 .carousel__btn-prevv, 
