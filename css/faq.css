@@ -1,13 +1,13 @@
  .faq {
     box-sizing: border-box;
     position: 0;
-     background: linear-gradient(rgba(39, 41, 43, 0.93), rgba(39, 41, 43, 0.93)), url(../img/faq_part.png);
-     background-size: cover;
-     background-attachment: fixed;
-     background-position: 50% 50%;
-     padding: 100px 24px 100px 24px;
-     margin: auto;
-     padding-bottom: 70px;
+    background: linear-gradient(rgba(39, 41, 43, 0.93), rgba(39, 41, 43, 0.93)), url(../img/faq_part.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 50% 50%;
+    padding: 100px 24px 100px 24px;
+    margin: auto;
+    padding-bottom: 70px;
  }
 
 
@@ -163,7 +163,6 @@
     .faq {
          display: flex;
          flex-direction: row;
-         align-items: center;
          justify-content: center;
          /* flex: 1; */
          padding-top: 140px;
