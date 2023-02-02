@@ -24,7 +24,6 @@
     color: var(--title-color);
     line-height: 41.8px;
     letter-spacing: 0.76px;
-    line-height: 33.6px;
 }
 
 .recipes__divider {
@@ -174,13 +173,6 @@
 
 }
 
-@media(min-width: 821px) {
-    .recipes__latte-button {
-        margin-top:0px;
-    }
-
-}
-
 @media(min-width: 991px) {
     .recipes__overtitle {
         line-height: 24px;
@@ -217,7 +209,7 @@
 
     .recipes__recipe-description {
         padding: 75px 30px 75px 30px;
-        margin-bottom:35px;
+        margin-bottom:45px;
     }
 
     .recipes__latte {
