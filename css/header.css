@@ -82,6 +82,10 @@
 }
 
 @media (min-width: 990px) {
+    .menu-btn {
+        display: none;
+    }
+
     .header__nav {
         flex-direction: row;
         align-items: center;
@@ -100,6 +104,15 @@
         justify-content: space-between;
         flex-direction: row-reverse;
     }
+
+    .header__logo-link {
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        margin-left: 0px;
+
+    }
+
     .header__menu {
         position: fixed;
         top: 0;
@@ -109,8 +122,9 @@
         padding: 15px;
         color: var(--menu-item-color);
         transform: translateX(-100%);
+        transition: transform 0.5s; 
     }
-    
+
     .header__social-icons {
         position: fixed;
         top: 0;
@@ -119,13 +133,57 @@
         height: 100%;
         padding: 15px;
         transform: translateX(-100%);
+        transition: transform 0.5s; 
+    }
+    .menu-btn {
+        width: 30px;
+        height: 30px;
+        position: relative;
+        z-index: 2;
+        overflow: hidden;
     }
     
-    .header__logo-link {
-        display: flex;
-        align-items: flex-start;
-        justify-content: flex-start;
-        margin-left: 0px;
-        
+    .menu-btn span {
+        width: 25px;
+        height: 2px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: #fbf8f8;
+        transition: all 0.5s;
+    }
+    
+    .menu-btn span:nth-of-type(2) {
+        top: calc(50% - 8px);
+    }
+    
+    .menu-btn span:nth-of-type(3) {
+        top: calc(50% + 8px);
+    }
+    
+    .menu-btn.active span:nth-of-type(1) {
+        display: none;
+    }
+    
+    .menu-btn.active span:nth-of-type(2) {
+        top: 50%;
+        transform: translate(-50%, 0%) rotate(45deg);
+    }
+    
+    .menu-btn.active span:nth-of-type(3) {
+        top: 50%;
+        transform: translate(-50%, 0%) rotate(-45deg);
+    }
+    
+    .header__menu.active {
+        transform: translateX(0);
+    }
+    
+    .header__social-icons.active {
+        transform: translateX(0);
     }
 }
+
+/*Burger menu*/
+
