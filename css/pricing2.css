@@ -58,10 +58,10 @@
 
 /* carousel */
 
-.carousel-item {
+/* .carousel-item {
     padding: 10px;
     /* grid-template-columns: 60px 1fr 60px; */
-}
+/* }  */
 
 .slider-item {
     background:rgba(255, 255, 255, 0.04);
@@ -75,7 +75,7 @@
     /* padding-top: 30px;
     /* padding-left: 85px; */
     /* padding-right: 35px; */
-    margin-left: 30px; 
+    /* margin-left: 30px;  */
     padding: 29px 29px 29px 29px;
 }
 
@@ -84,45 +84,34 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 350px;
+    gap: 30px;
+    min-height: 350px; 
     margin-bottom: 30px;
 }
 
-.pricing__carousel {
-	display: grid;
-	grid-template-columns: 1fr 600px 1fr;
+.pricing__carousel { 
+	display: flex;
+    justify-content: center;
+    align-items: center;
+	/* grid-template-columns: 1fr 600px 1fr; */
 }
 
 /* Стрілка вліво */
-.slick-prev{
+.slick-prev {
     left: 0;
     width: 30px;
 	height: 30px;
 }  
 /* Стрілка вправо */
-.slick-next{
+.slick-next {
     right: 0;
     width: 30px;
 	height: 30px;
     
     /* margin: 20; */
 	/* padding: 10px; */
-	padding-top: 1px;
+	/* padding-top: 1px; */
 } 
-
- /* .carousel__btn-prevv, 
-.carousel__btn-nextt {
-    
-	width: 30px;
-	height: 30px;
-	color: rgb(134, 106, 106);
-	border: none;
-}  */
- /* .btn{
-    display: flex;
-    align-items: center;
-	justify-content: center;
-}  */
 
 
 /* внутрішні налаштування */
