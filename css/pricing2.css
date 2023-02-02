@@ -1,7 +1,6 @@
 .pricing {
     background-color: var(--title-color);
     height: 1000px;
-   
 }
 
 .pricing__header__tittle {
@@ -50,9 +49,142 @@
 }
 
 .item-pricing__tittle {
-    color: rgb(230,230,230);
+    color: rgb(230, 230, 230);
     font-size: 24px;
     /* padding-left: 5px; */
     padding-bottom: 10px;
    
+}
+
+/* carousel */
+
+.carousel-item {
+    padding: 10px;
+    /* grid-template-columns: 60px 1fr 60px; */
+}
+
+.slider-item {
+    background:rgba(255, 255, 255, 0.04);
+    width: 252px;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 400;
+    letter-spacing: 0.48px;
+    line-height: 29.52px;
+    text-align: left;
+    box-sizing: border-box;
+    /* padding-top: 30px;
+    /* padding-left: 85px; */
+    /* padding-right: 35px; */
+    margin-left: 30px; 
+    padding: 29px 29px 29px 29px;
+}
+
+
+.pricing__slide-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 350px;
+    margin-bottom: 30px;
+}
+
+.pricing__carousel {
+	display: grid;
+	grid-template-columns: 1fr 600px 1fr;
+}
+
+/* Стрілка вліво */
+.slick-prev{
+    left: 0;
+    width: 30px;
+	height: 30px;
+}  
+/* Стрілка вправо */
+.slick-next{
+    right: 0;
+    width: 30px;
+	height: 30px;
+    
+    /* margin: 20; */
+	/* padding: 10px; */
+	padding-top: 1px;
+} 
+
+ /* .carousel__btn-prevv, 
+.carousel__btn-nextt {
+    
+	width: 30px;
+	height: 30px;
+	color: rgb(134, 106, 106);
+	border: none;
+}  */
+ /* .btn{
+    display: flex;
+    align-items: center;
+	justify-content: center;
+}  */
+
+
+/* внутрішні налаштування */
+.carousel-item__price {
+    padding-bottom: 10px;
+}
+
+.item-pricing__price {
+    font-size: 18px;
+    line-height: 25.5px;
+    color: var(--overtitle-color);
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: normal;
+    text-align: left;
+    font-weight: 500px;
+    
+}
+
+.check-mark {
+    font-size: 17px;
+    color: var(--form-textcolor);
+    line-height: 25.5px;
+    text-align: left;
+    font-weight: 400;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 16px;
+}
+.check-mark__text {
+    font-size: 17px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    list-style: 25.5px;
+    text-align: left;
+    margin-left: 10px;
+}
+
+.carousel__btn-select:hover {
+    color: var(--hover-button-text-color);
+    background-color: var(--hover-button-background-color);
+}
+
+.carousel-inner__button {
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+
+.carousel__btn-select {
+    font-size: 15px;
+    height: 45px;
+    width: 160px;
+    left: 0px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: var(--button-text-color);
+    letter-spacing: 0.3px;
+    text-decoration: none;
+    background-color: var(--button-background-color);
+    text-align: center;
+    border: 0;
+    line-height: 15px;
+    padding: 15px 24px 15px 24px;
+    margin: 0;
+
 }
