@@ -122,6 +122,18 @@
     padding-left: 0;
 }
 
+.faq__btn-select:hover {
+    color: var(--hover-button-text-color);
+    background-color: var(--hover-button-background-color);
+
+}
+
+.faq__btn-contact:hover {
+    color: var(--button-text-color);
+    background-color: var(--button-background-color);
+    border-color: var(--button-background-color);
+}
+
 /* .accordion-button collapsed {
     padding-left: 0;
 } */

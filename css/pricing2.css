@@ -93,16 +93,31 @@
 	grid-template-columns: 1fr 600px 1fr;
 }
 
-.carousel__btn-prevv, 
-.carousel__btn-nextt {
-    margin: 15px;
-	padding: 10px;
+/* Стрілка вліво */
+.slick-prev{
+    left: 0;
+    width: 30px;
+	height: 30px;
+}  
+/* Стрілка вправо */
+.slick-next{
+    right: 0;
+    width: 30px;
+	height: 30px;
+    
+    /* margin: 20; */
+	/* padding: 10px; */
 	padding-top: 1px;
+} 
+
+ /* .carousel__btn-prevv, 
+.carousel__btn-nextt {
+    
 	width: 30px;
 	height: 30px;
 	color: rgb(134, 106, 106);
 	border: none;
-}
+}  */
  /* .btn{
     display: flex;
     align-items: center;
@@ -143,6 +158,11 @@
     list-style: 25.5px;
     text-align: left;
     margin-left: 10px;
+}
+
+.carousel__btn-select:hover {
+    color: var(--hover-button-text-color);
+    background-color: var(--hover-button-background-color);
 }
 
 .carousel-inner__button {
