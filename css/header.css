@@ -23,8 +23,11 @@
     width: 500px;
     display: flex;
     justify-content: space-between;
-    height: 48px;
+    height: 37px;
     margin-block-end: -12px;
+}
+.header__menu li {
+    list-style-type: none;
 }
 
 .menu_item {
@@ -41,6 +44,9 @@
 .social-icons__icon {
     font-size: 30px;
     text-decoration: none;
+}
+
+.logo_social-icons {
     color: var(--social-icon-color);
 }
 
