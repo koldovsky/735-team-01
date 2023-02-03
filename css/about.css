@@ -1,18 +1,21 @@
-.about{
-padding:90px 30px 90px 30px;
-display:flex;
-flex-direction: column;
+.about {
+    padding: 90px 30px 90px 30px;
+    display: flex;
+    flex-direction: column;
 }
 
-.about__image{
-display:block;
-width:100%;
+.about__image {
+    display: block;
+    width: 100%;
 }
-.about__info{
-    display:flex;
-    flex-direction: column;  
-    margin-top:40px; 
+
+.about__info {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    gap:15px;
 }
+
 .about__overtitle {
     line-height: 26px;
 }
@@ -22,7 +25,7 @@ width:100%;
     line-height: 41.8px;
     font-weight: 400;
     letter-spacing: 0.76px;
-    margin-top:-10px;
+    margin-top: -10px;
 }
 
 .about__subtitle {
@@ -33,6 +36,7 @@ width:100%;
     letter-spacing: 0.56px;
     line-height: 33.6px;
 }
+
 .about__dark-text {
     color: var(--dark-subtitle-color);
     font-size: 19px;
@@ -44,8 +48,9 @@ width:100%;
     color: var(--dark-text-color);
     font-size: 17px;
     font-weight: 400;
-    line-height: 25.5px;   
+    line-height: 25.5px;
 }
+
 .about__divider {
     height: 3px;
     width: 9%;
@@ -53,18 +58,18 @@ width:100%;
     line-height: 25.5px;
 }
 
-.about__button{
-width:144.225px;
-height:49.3px;
-display:flex;
-justify-content:center;
-align-items:center;
-font-size:16.5px;
-font-weight:500;
-letter-spacing:0.33px;
-line-height:16.5px;
+.about__button {
+    width: 144.225px;
+    height: 49.3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16.5px;
+    font-weight: 500;
+    letter-spacing: 0.33px;
+    line-height: 16.5px;
 }
 
-.about__button:hover{
-background-color:var(--hover-button-text-color);
+.about__button:hover {
+    background-color: var(--hover-button-text-color);
 }
