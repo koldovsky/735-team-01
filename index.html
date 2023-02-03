@@ -105,36 +105,57 @@
                 <img class="courses__background-img" src="img/curses-section.svg" alt="courses">
             </div>
         </section>
-        <!-- serhii murashko -->
-        <section class="about__coffee-making">
-            <div class="about__image__coffee-friends">
-                <img src="img/coffee-friends.png" alt="making-coffee" width="252">
+        <!-- Marichka Kurhanevych-->
+        <section class="video">
+            <div class="video__inner">
+                <p class="video__overtitle overtitle">Video</p>
+                <h2 class="video__title">HERE'S HOW WE STUDY AND MAKE COFFEE</h2>
+                <div class="modal hidden ">
+                    <iframe class="video__video" src= "https://www.youtube.com/embed/rLaVDQy0q8Y"  frameborder="0" allowfullscreen></iframe>
+                    <buton class="video__btn-close">⨉</buton>
+                </div>
+                <div class="overlay hidden"></div>
+                <svg class="video__icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                    version="1.1" viewBox="0 0 96 96" x="0px" y="0px" style="max-width:100%" height="100%">
+                    <path
+                        d="M38 68.476c-0.328 0-0.652-0.080-0.948-0.244-0.648-0.34-1.052-1.020-1.052-1.756v-36.952c0-0.736 0.404-1.416 1.052-1.752 0.644-0.352 1.432-0.32 2.048 0.088l28 18.476c0.56 0.368 0.9 0.992 0.9 1.664s-0.336 1.304-0.9 1.672l-28 18.476c-0.332 0.22-0.716 0.328-1.1 0.328zM40 33.244v29.524l22.368-14.756-22.368-14.768z"
+                        fill="currentColor"></path>
+                    <path
+                        d="M48 4c24.256 0 44 19.744 44 44s-19.744 44-44 44c-24.26 0-44-19.744-44-44s19.74-44 44-44zM48 0c-26.508 0-48 21.492-48 48s21.492 48 48 48 48-21.492 48-48-21.492-48-48-48v0z"
+                        fill="currentColor"></path>
+                </svg>
             </div>
-            <div class="about__coffee-making__text-left">
-                <p class="about__about">About</p>
-                <h2 class="about__master-making">master coffee making</h2>
-                <h3 class="about__at-our-school">at our school,you'll learn all coffee secrets</h3>
-                <span class="about__life-experience">Coffee Lab School gives a real life experience of a coffee shop
+        </section>
+        <section class="about container">
+            <div class="about__image-container">
+                <img class="about__image" src="img/coffee-friends.png" alt="making-coffee">
+            </div>
+            <div class="about__coffee-making about__info">
+                <p class="about__overtitle overtitle">About</p>
+                <h2 class="about__title">Master coffee making</h2>             
+                <p class="about__dark-text">At our school, you'll learn all coffee secrets.</p>              
+                <p class="about__light-text">Coffee Lab School gives a real life experience of a coffee shop
                     with an
-                    internship</span>
+                    internship.
+                </p>
+
             </div>
-            <div class="about__coffee__making__text-right">
-                <h2 class="about__text-right__couses">professional couses are now available for all coffee fans in new
+            <div class="about__courses about__info">
+                <h3 class="about__subtitle">Professional courses are now available for all coffee fans in new
                     york
-                </h2>
-                <div class="divider__about__coffee-making"></div>
-                <span class="about__for-people">Coffee Lab School is an educational playground for people who cast their
+                </h3>
+                <div class="about__divider divider"></div>
+                <p class="about__light-text">Coffee Lab School is an educational playground for people who cast their
                     lot
                     with
                     coffee. If you own a coffee shop, work as a barista, or you're just a coffee fan, it is a place
                     where
-                    you can learn even more about this hot and energizing drink. </span>
-                <button class="about__making__btn" href="#contacts">Learn more</button>
-                <a href="#contacts">Learn more</a>
+                    you can learn even more about this hot and energizing drink.
+                </p>
+                <a class="about__button button" href="#pricing">Learn more</a>
             </div>
         </section>
 
-        <!-- Marichka Kurhanevych-->
         <section class="recipes" id="recipes">
             <svg class="recipes__top-line" width=100% height=100% viewBox="0 0 2100 117" fill="none"
                 xmlns="http://www.w3.org/2000/svg">
@@ -164,14 +185,14 @@
                     <p class="recipes__recipe-text">To make the number one summer coffee, mix espresso, milk, syrup, and
                         ice cubes. Blend everything until it looks like a one-piece liquid. Pour the mix into glasses
                         and decorate the glass with whipped cream.</p>
-                    <a href="#" class="recipes__open-button button">Open</a>
+                    <a href="#" class="recipes__open-button button recipes__latte-button">Open</a>
                 </div>
                 <div class="recipes__recipe-description recipes__cheese-dessert">
                     <h3 class="recipes__recipe-name">CHEESE DESSERT</h3>
                     <p class="recipes__recipe-text">Boil milk, add coffee and sugar. Mix it and cool it down. Put
                         cottage cheese in a bowl, add cold coffee, and whip it. Malt some peanuts and add them to the
                         cheese-coffee bowl. Then, mix it and serve on small plates.</p>
-                    <a href="#" class="recipes__open-button button">Open</a>
+                    <a href="#" class="recipes__open-button button ">Open</a>
                 </div>
             </div>
             <svg class="recipes__bottom-line" width=100% height=100% viewBox="0 0 2100 183" fill="none"
@@ -210,6 +231,8 @@
             </div>
 
         </section>
+
+        <!-- finish -->
 
         <!--Timush Ruslan (start) -->
         <section class="features container">
@@ -544,6 +567,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js "
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN "
         crossorigin="anonymous "></script>
+    <script src="js/video.js"></script>
     <script src="js/prising-carousel.js"></script>
     <script src="js/cofee-carousel.js"></script>
     <script src="js/clock.js"></script>
