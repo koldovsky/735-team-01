@@ -1,9 +1,12 @@
-let menuBtn = document.querySelector(".menu-btn");
-let headerMenu = document.querySelector(".header__menu");
-let headerSocialIcons = document.querySelector(".header__social-icons");
+const menu = document.querySelector('.header__menu')
+const menuBtn = document.querySelector('.menu__icon')
 
-menuBtn.addEventListener("click", function () {
-  menuBtn.classList.toggle("active");
-  headerMenu.classList.toggle("active");
-  headerSocialIcons.classList.toggle("active");
-})
+const body = document.body;
+
+if (menu && menuBtn) {
+    menuBtn.addEventListener('click', e => {
+        menu.classList.toggle('active')
+        menuBtn.classList.toggle('active')
+        body.classList.toggle('lock')
+    })
+}
