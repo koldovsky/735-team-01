@@ -136,11 +136,9 @@
 
     .header__social-icons {
         position: relative;
-        right: 81%;
+        right: 86%;
         display: flex;
         align-items: center;
-
-
     }
 
     .menu_item {
