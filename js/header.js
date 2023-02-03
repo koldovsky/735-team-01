@@ -1,5 +1,5 @@
 const menu = document.querySelector('.header__menu')
-const menuBtn = document.querySelector('.menu__icon')
+const menuBtn = document.querySelector('.menu-icon')
 
 const body = document.body;
 
