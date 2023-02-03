@@ -73,3 +73,19 @@
 .about__button:hover {
     background-color: var(--hover-button-text-color);
 }
+
+@media(min-width:768px){
+    .about {
+        display:grid;
+        padding:90px 35px 90px 35px;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap:25px;
+    }
+    .about__info{
+    padding-left:15px;
+    padding-right:15px;
+    }
+    .about__courses{
+    margin-top:0;  
+    }
+}
