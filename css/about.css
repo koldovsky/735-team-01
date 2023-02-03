@@ -103,7 +103,7 @@
         grid-template-columns: 1fr 1fr 1fr;
         gap: 25px;
     }
-
+   
     .about__overtitle {
         line-height: 26px;
         font-size: 26px;
@@ -129,6 +129,7 @@
     .about__courses {
         margin-top: 0;
     }
+   
 }
 
 @media(min-width:991px) {
