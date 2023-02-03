@@ -24,12 +24,17 @@
 
 .modal {
     display: flex;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     z-index: 2;
     background-color: var(--light-background-color);
     border-radius: 15px;
     padding: 1.3rem;
-    width:60%;
-    height:35%;
+    width: 85%;
+    height: 48%;
+
 }
 
 .overlay {
@@ -56,9 +61,10 @@
     height: 50px;
     width: 50px;
     color: var(--video-icon-color);
-    cursor:pointer;
+    cursor: pointer;
 }
-.video__icon:hover{
+
+.video__icon:hover {
     color: var(--hover-button-background-color);
 }
 
@@ -69,7 +75,7 @@
 
 .video__btn-close {
     transform: translate(2px, -20px);
-    cursor:pointer;
+    cursor: pointer;
 
 }
 
@@ -86,7 +92,7 @@
 
 @media(min-width: 768px) {
 
-   
+
     .video {
         padding-top: 205px;
         padding-bottom: 205px;
@@ -106,9 +112,9 @@
         width: 70px;
     }
 
-    .modal{
-     width:560px;
-     height:315px;   
+    .modal {
+        width: 560px;
+        height: 315px;
     }
 
 }
@@ -118,17 +124,22 @@
         line-height: 24px;
     }
 
+    .video__btn-close {
+        font-size: 20px;
+    }
 
     .video__title {
         letter-spacing: 1.16px;
         line-height: 63.8px;
     }
-}
 
-@media(min-width: 991px) {
     .video {
         padding-top: 280px;
         padding-bottom: 280px;
     }
 
+    .modal {
+        width: 800px;
+        height: 500px;
+    }
 }
