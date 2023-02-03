@@ -119,6 +119,14 @@
 
 }
 
+@media(min-width: 401px) {
+    .modal {
+        padding-right: 0.3rem;
+    }
+
+
+}
+
 @media(min-width: 991px) {
     .video__overtitle {
         line-height: 24px;
