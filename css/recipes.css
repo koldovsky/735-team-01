@@ -24,7 +24,6 @@
     color: var(--title-color);
     line-height: 41.8px;
     letter-spacing: 0.76px;
-    line-height: 33.6px;
 }
 
 .recipes__divider {
@@ -60,7 +59,7 @@
     display: flex;
     flex-direction: column;
     padding: 40px 28px 40px 28px;
-    height: fit-content;
+    justify-content:space-between;
 
 }
 
@@ -92,8 +91,7 @@
     font-size: 17px;
     font-weight: 400;
     line-height: 25.5px;
-    margin-top: 15px;
-    margin-bottom: 35px;
+  
 }
 
 .recipes__open-button {
@@ -162,6 +160,7 @@
         margin-bottom: 0;
         padding-top: 54px;
         padding-bottom: 50px;
+       
     }
 
     .recipes__latte {
@@ -197,10 +196,10 @@
     .recipes__content {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        grid-column-gap: 33px;   
-        padding-left: 40px; 
-        padding-right:40px;
-    
+        grid-column-gap: 33px;
+        padding-left: 40px;
+        padding-right: 40px;
+
     }
 
     .recipes__info {
@@ -209,7 +208,8 @@
     }
 
     .recipes__recipe-description {
-        padding: 70px 30px 70px 30px;
+        padding: 75px 30px 75px 30px;
+        margin-bottom:45px;
     }
 
     .recipes__latte {
@@ -223,6 +223,7 @@
 
 
 }
+
 
 .recipes__bottom-line {
     background-color: var(--dark-background-color);
