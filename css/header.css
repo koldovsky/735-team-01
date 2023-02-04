@@ -80,22 +80,6 @@
     font-size: 17px;
 }
 
-@media (max-width:599px) {
-    .header {
-        background-image: linear-gradient(rgba(32, 32, 32, 0.925), rgba(32, 32, 32, 0.925)), url(../img/logo-coffee.png);
-        background-size: cover;
-        background-position: top;
-        background-attachment: fixed;
-        width: 100%;
-    }
-
-    .header__banner {
-        text-align: center;
-        padding-top: 144px;
-        padding-bottom: 244px;
-    }
-}
-
 @media (min-width: 990px) {
     .header__nav {
         flex-direction: row;
@@ -167,12 +151,6 @@
         align-items: flex-start;
         justify-content: flex-start;
         margin-left: 0px;
-    }
-    
-    .header__banner {
-        text-align: center;
-        padding-top: 200px;
-        padding-bottom: 309px;
     }
 
     .menu__list {
@@ -263,3 +241,4 @@
         bottom: calc(50% - 1px);
     }
 }
+
