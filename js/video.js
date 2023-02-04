@@ -3,14 +3,19 @@
     const overlay = document.querySelector(".overlay");
     const openModalBtn = document.querySelector(".video__icon");
     const closeModalBtn = document.querySelector(".video__btn-close");
-    const coffeeVideo = document.getElementById("coffe-video");
+ 
 
     const closeModal = function () {
         modal.classList.add("hidden");
         overlay.classList.add("hidden");
+        const iframes = document.getElementsByTagName("iframe");
+        if (iframes != null) {
+            for (let i = 0; i < iframes.length; i++) {
+                iframes[i].src = iframes[i].src;
+            }
+        }
     };
 
-   
 
     closeModalBtn.addEventListener("click", closeModal);
     overlay.addEventListener("click", closeModal);
