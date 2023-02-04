@@ -234,7 +234,7 @@
     } 
 }
 
-@media (max-width: 766px) {
+@media (min-width: 767px) {
     .pricing__slide-container {
         width: 718px;
         height: 437px;
