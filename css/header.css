@@ -91,6 +91,13 @@
 
     .header__menu {
         display: flex;
+        align-items: center;
+    }
+
+    .header__social-icons {
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
     }
 
     .menu-icon {
@@ -126,8 +133,8 @@
         gap: 30px;
         flex-direction: column;
         padding: 30px;
-        gap: 20px;
-        height: 100%;
+        gap: 30px;
+        height: 90%;
         width: 100%;
         background-color: var(--dark-background-color);
         overflow: auto;
@@ -135,10 +142,9 @@
     }
 
     .header__social-icons {
-        position: relative;
-        right: 86%;
-        display: flex;
-        align-items: center;
+        position: absolute;
+        top: 10px;
+        left: 27px;
     }
 
     .menu_item {
