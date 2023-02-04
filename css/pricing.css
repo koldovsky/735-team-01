@@ -239,4 +239,16 @@
         width: 718px;
         height: 437px;
     }
+    .pricing__body {
+        margin-bottom: 120px;
+    }
+
+    .pricing__text {
+        padding: 0 25px 0 25px;
+   }
+
+   .item-pricing__price {
+    font-weight: 500;
+   }
+
 }
