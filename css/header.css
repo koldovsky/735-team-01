@@ -17,12 +17,13 @@
     height: 25px;
     line-height: 16px;
     width: 18%;
+    text-decoration: none;
 }
 
 .menu__header {
-    width: 500px;
     display: flex;
     justify-content: space-between;
+    width: 500px;
     height: 37px;
     margin-block-end: -12px;
 }
@@ -31,11 +32,10 @@
     list-style-type: none;
 }
 
-.menu_item {
-    font-family: 'Roboto', sans-serif;
-    text-decoration-line: underline;
-    font-weight: 515;
+.menu_item-header {
     color: var(--menu-item-color);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 515;
 }
 
 .header__social-icons {
@@ -43,8 +43,8 @@
 }
 
 .social-icons__icon {
-    font-size: 30px;
     text-decoration: none;
+    font-size: 30px;
 }
 
 .logo_social-icons {
@@ -52,33 +52,33 @@
 }
 
 .header__banner {
+    text-align: center;
     padding-top: 200px;
     padding-bottom: 300px;
-    text-align: center;
 }
 
 .header__overtitle {
-    font-size: 20px;
     text-align: center;
     text-transform: none;
     color: var(--overtitle-color);
     font-family: 'Satisfy', cursive;
+    font-size: 20px;
 }
 
 .header__title {
-    font-size: 100px;
     text-align: center;
     color: var(--button-text-color);
     font-family: 'Bebas Neue', cursive;
     text-transform: uppercase;
+    font-size: 100px;
 }
 
 .header_text {
-    margin-top: 12px;
-    font-size: 17px;
     text-align: center;
     color: var(--button-text-color);
     font-family: 'Roboto', sans-serif;
+    margin-top: 12px;
+    font-size: 17px;
 }
 
 @media (min-width: 990px) {
@@ -91,10 +91,43 @@
 
     .header__menu {
         display: flex;
+        align-items: center;
+    }
+
+    .header__social-icons {
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
     }
 
     .menu-icon {
         display: none;
+    }
+
+    .menu_item-header {
+        position: relative;
+        display: block;
+        text-decoration: none;
+        text-align: center;
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .menu_item-header:before {
+        content: '';
+        position: absolute;
+        transform-origin: left;
+        background: var(--button-text-color);
+        width: 100%;
+        height: 2px;
+        left: 0;
+        bottom: 0;
+        transition: .5s;
+        transform: scale(0);
+    }
+
+    .menu_item-header:hover:before {
+        transform: scale(1);
     }
 
     .menu__list {
@@ -102,8 +135,8 @@
         gap: 30px;
         margin-bottom: 0rem;
         padding-left: 0rem;
-        padding-right: 4rem;
-        margin-top: 3px;
+        padding-right: 5rem;
+        margin-top: 4px;
     }
 
 }
@@ -112,6 +145,10 @@
     .header__nav {
         display: flex;
         justify-content: space-between;
+    }
+
+    .header__banner {
+        padding-bottom: 309px;
     }
 
     .header__logo-link {
@@ -123,39 +160,40 @@
 
     .menu__list {
         display: flex;
-        gap: 30px;
         flex-direction: column;
-        padding: 30px;
-        gap: 20px;
-        height: 100%;
-        width: 100%;
-        background-color: var(--dark-background-color);
+        align-items: flex-start;
         overflow: auto;
         margin: auto;
+        background-color: var(--dark-background-color);
+        gap: 30px;
+        padding: 30px;
+        gap: 30px;
+        height: 90%;
+        width: 100%;
     }
 
     .header__social-icons {
-        position: relative;
-        right: 86%;
-        display: flex;
-        align-items: center;
+        position: absolute;
+        top: 13px;
+        left: 19px;
     }
 
-    .menu_item {
-        color: var(--menu-item-color);
+    .menu_item-header {
+        text-decoration: none;
         display: block;
+        color: var(--menu-item-color);
         font-size: 21px;
     }
 
     .header__menu {
+        display: flex;
         position: absolute;
+        background-color: var(--dark-background-color);
         top: 0;
         left: -100%;
         height: 100vh;
         width: 100%;
-        background-color: var(--dark-background-color);
         transition: all 0.2s;
-        display: flex;
     }
 
     .header__menu.active {
@@ -168,11 +206,11 @@
 
     .menu-icon {
         display: block;
+        position: relative;
+        cursor: pointer;
         width: 30px;
         height: 18px;
-        position: relative;
         z-index: 5;
-        cursor: pointer;
     }
 
     .menu-icon span {
@@ -208,3 +246,4 @@
         bottom: calc(50% - 1px);
     }
 }
+
