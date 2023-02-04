@@ -17,6 +17,7 @@
     height: 25px;
     line-height: 16px;
     width: 18%;
+    text-decoration: none;
 }
 
 .menu__header {
@@ -144,6 +145,10 @@
     .header__nav {
         display: flex;
         justify-content: space-between;
+    }
+
+    .header__banner {
+        padding-bottom: 309px;
     }
 
     .header__logo-link {
