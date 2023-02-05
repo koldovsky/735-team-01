@@ -186,6 +186,7 @@
          font-size: 21px;
          font-weight: 500;
          line-height: 31.4px;
+         /* padding-bottom: 80px; */
     }
 
     .slider-item {
@@ -206,14 +207,14 @@
 @media (min-width: 768px) {
     .pricing__slide-container {
         width: 80%;
-        height: 325px;
+        /* height: 350px; */
     }
     .pricing__body {
         margin-bottom: 80px;
     }
 
     .pricing__text {
-        padding: 0 25px 30px 25px;
+        padding: 0 25px 55px 25px;
 
     }
 
