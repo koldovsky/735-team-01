@@ -52,6 +52,13 @@
    
 }
 
+.pricing__svg {
+    display: block;
+    /* height: 100%; */
+    width: 100%;
+    /* background-color: var(--title-color); */
+}
+
 
 /* carousel */
 .slider-item {
@@ -178,7 +185,7 @@
     }
 
     .slider-item {
-        /* width: 675px; */
+        width: 675px;
         font-weight: 400;
         font-size: 17px;
         line-height: 25.5px;
