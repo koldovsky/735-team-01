@@ -35,15 +35,24 @@
 .courses__slide-container {
     display: flex;
     justify-content: center;
-    align-items: center;
     gap: 30px;
     min-height: 350px;
 }
 
+.item-courses__tittle{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 28px;
+    margin-top: 20px;
+}
 
+.img__courses {
+    width: 345px;
+}
 
-
-
+.check-mark__courses {
+    display: flex;
+    align-items: center;
+}
 
 .slick-prev {
     left: 0;
