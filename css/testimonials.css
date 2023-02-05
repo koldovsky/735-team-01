@@ -92,5 +92,6 @@
 }
 @media(max-width: 768px) {
 	.content__item{
-		max-width: 98%;
+		max-width: 90vw;
+	}
 }
