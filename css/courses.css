@@ -31,3 +31,34 @@
 .courses__background-img {
     width: 100%;
 }
+
+.courses__slide-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    min-height: 350px;
+}
+
+
+
+
+
+
+.slick-prev {
+    left: 0;
+    width: 30px;
+    height: 30px;
+}
+
+.slick-next {
+    right: 0;
+    width: 30px;
+    height: 30px;
+}
+
+.courses__carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

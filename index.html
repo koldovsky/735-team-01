@@ -20,7 +20,7 @@
 
 
 <body>
-    <header class="header">
+    <header id="header" class="header">
         <nav class="header__nav container">
             <a href="#" class="header__logo-link">
                 <img width="188" class="header__logo" src="img/barista-logo.svg" alt="Barista Logo">
@@ -102,6 +102,15 @@
                 <h3 class="courses__title">make coffee like a pro</h3>
                 <div class="divider"></div>
                 <p class="courses__text">Sign up for one of our professional courses.</p>
+                <div class="carousel">
+                    <div class="courses__slide">
+                        <div class="courses__carousel">
+                            <img class="slick-prev" src="img/left.png" alt="">
+                            <div class="courses__slide-container"></div>
+                            <img class="slick-next" src="img/right-arrow-icon.png" alt="">
+                        </div>
+                    </div>
+                </div>
                 <img class="courses__background-img" src="img/curses-section.svg" alt="courses">
             </div>
         </section>
@@ -565,6 +574,7 @@
     </footer>
     <!-- Roksolana Morozova -->
     <script src="js/header.js"></script>
+    <script src="js/courses-carousel.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js "
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN "
         crossorigin="anonymous "></script>
