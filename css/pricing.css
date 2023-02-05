@@ -197,18 +197,9 @@
     }    
     
     .pricing__slide-container {
-        width: 927px;
-        /* height: 680px; */
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 30px;
-        height: 250px; 
+        width: 80%;
+        height: 325px; 
     } 
-
-    .pricing__header {
-        padding-bottom: 25px;
-    }
 
 }
 
