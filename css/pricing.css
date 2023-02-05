@@ -89,14 +89,14 @@
 }
 
 /* Стрілка вліво */
-.slick-prev {
+.slick-prevv {
     left: 0;
     width: 30px;
 	height: 30px;
 }  
 
 /* Стрілка вправо */
-.slick-next {
+.slick-nextt {
     right: 0;
     width: 30px;
 	height: 30px;
@@ -194,7 +194,6 @@
     }    
     
     .pricing__slide-container {
-        /* gap: 3px; */
         width: 927px;
         /* height: 680px; */
         display: flex;

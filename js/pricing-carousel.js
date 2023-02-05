@@ -144,10 +144,10 @@
 
     renderSlides();
 
-    const btnNext = document.querySelector('.slick-next');
+    const btnNext = document.querySelector('.slick-nextt');
     btnNext.addEventListener('click', nextSlide);
 
-    const btnPrev = document.querySelector('.slick-prev');
+    const btnPrev = document.querySelector('.slick-prevv');
     btnPrev.addEventListener('click', () => {
         currentSlideIdx = currentSlideIdx - 1 < 0 ? pricingSlides.length - 1 : currentSlideIdx - 1;
         renderSlides();
