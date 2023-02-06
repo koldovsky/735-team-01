@@ -10,7 +10,6 @@
         padding-bottom: 70px;
     }
 
-
     .faq__overtittle {
         font-size: 26px;
         text-align: left;
@@ -45,7 +44,6 @@
         line-height: 28.5px;
         text-align: left;
         overflow-wrap: break-word;
-        /* text-transform: none; */
         color: var(--main-title-color);
     }
 
@@ -82,7 +80,6 @@
         line-height: 15px;
         padding: 15px 24px 15px 24px;
         margin: 10px;
-
     }
 
     .faq__btn-contact {
@@ -97,7 +94,6 @@
         text-align: center;
         border-color: var(--button-background-color);
         color: var(--button-background-color);
-        /* margin-left: 15px; */
         background-color: rgb(199, 161, 122, 0);
         border: 2px solid;
         line-height: 15px;
@@ -114,8 +110,14 @@
         margin-top: 50px;
         max-width: 339px;
         --bs-accordion-active-bg: transparent;
-        --bs-accordion-btn-focus-box-shadow: none;
-        
+        --bs-accordion-btn-focus-box-shadow: none;          
+    }
+
+    .accordion-button:not(.collapsed)::after {
+        background-image: url(../img/faq-icon.svg);
+    }   
+    .accordion-button::after {
+        background-image: url(../img/faq-icon.svg);
     }
 
     .accordion-button:not(.collapsed) {
