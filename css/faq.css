@@ -1,135 +1,232 @@
- .faq {
-    background-size: cover;
-    background: linear-gradient(rgba(39, 41, 43, 0.93), rgba(39, 41, 43, 0.93)), url(../img/faq_part.png);
-    background-attachment: fixed;
-    background-position: 50% 20%;
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    padding: 120px 60px 120px 60px; 
-    margin: auto;
+    .faq {
+        box-sizing: border-box;
+        position: 0;
+        background: linear-gradient(rgba(39, 41, 43, 0.93), rgba(39, 41, 43, 0.93)), url(../img/faq_part.png);
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: 50% 50%;
+        padding: 100px 24px 100px 24px;
+        margin: auto;
+        padding-bottom: 70px;
+    }
+
+
+    .faq__overtittle {
+        font-size: 26px;
+        text-align: left;
+        font-weight: 400;
+        line-height: 26px;
+        color: var(--overtitle-color);
+        font-family: 'Satisfy', cursive;
+        box-sizing: border-box;
+        vertical-align: baseline;
+    }
+
+    .faq__tittle {
+        color: var(--button-text-color);
+        font-family: 'Bebas Neue', cursive;
+        font-size: 38px;
+        font-weight: 400;
+        margin-top: 20px;
+    }
+
+    .faq__devider {
+        background-color: var(--overtitle-color);
+        height: 3px;
+        width: 10%;
+        line-height: 50px;
+        margin: left;
+    }
+
+    .faq__textsubtitle {
+        font-family: 'Roboto', sans-serif;
+        font-size: 19px;
+        font-weight: 500;
+        line-height: 28.5px;
+        text-align: left;
+        overflow-wrap: break-word;
+        /* text-transform: none; */
+        color: var(--main-title-color);
+    }
+
+    .faq__textbody {
+        font-size: 17px;
+        font-weight: 400;
+        line-height: 25.5px;
+        overflow-wrap: break-word;
+        text-align: left;
+        text-transform: none;
+        vertical-align: baseline;
+        font-family: 'Roboto', sans-serif;
+        color: var(--main-title-color);
+    }
+
+    .faq__btns-group {
+        display: flex;
+        margin: -10px;
+    }
+
+    .faq__btn-select {
+        font-size: 15px;
+        height: 45px;
+        width: 160px;
+        left: 0px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+        color: var(--button-text-color);
+        letter-spacing: 0.3px;
+        text-decoration: none;
+        background-color: var(--button-background-color);
+        text-align: center;
+        border: 0;
+        line-height: 15px;
+        padding: 15px 24px 15px 24px;
+        margin: 10px;
+
+    }
+
+    .faq__btn-contact {
+        font-size: 15px;
+        height: 45px;
+        width: 124.875px;
+        left: 0px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+        letter-spacing: 0.3px;
+        text-decoration: none;
+        text-align: center;
+        border-color: var(--button-background-color);
+        color: var(--button-background-color);
+        /* margin-left: 15px; */
+        background-color: rgb(199, 161, 122, 0);
+        border: 2px solid;
+        line-height: 15px;
+        padding: 15px 15px 15px 15px;
+        margin: 10px;
+    }
+
+    .accordion {
+        display: block;
+        text-align: left;
+        position: relative;
+        box-sizing: border-box;
+        font-size: 17px;
+        margin-top: 50px;
+        max-width: 339px;
+        --bs-accordion-active-bg: transparent;
+        --bs-accordion-btn-focus-box-shadow: none;
+        
+    }
+
+    .accordion-button:not(.collapsed) {
+        color: var(--main-title-color);
+        padding-left: 0;
+    }
+
+    .faq__btn-select:hover {
+        color: var(--hover-button-text-color);
+        background-color: var(--hover-button-background-color);
+
+    }
+
+    .faq__btn-contact:hover {
+        color: var(--button-text-color);
+        background-color: var(--button-background-color);
+        border-color: var(--button-background-color);
+    }
+
+    .accordion-item {
+        background-color: transparent;
+        color: rgb(225 224 244);
+        line-height: 25.5px;
+        font-size: 17px;
+        text-align: left;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        box-sizing: border-box;
+    }
+
+    .accordion-button {
+        font-family: 'Bebas Neue', cursive;
+        font-size: 24px;
+        font-weight: 400;
+        text-align: left;
+        cursor: pointer;
+        letter-spacing: 0.48px;
+        line-height: 29.52px;
+        background-color: transparent;
+        color: var(--button-text-color);
+    }
+
+    .accordion-body {
+        color: #fff;
+        background-color: transparent;
+        padding-left: 0;
+        padding-top: 20px;
+    }
+
+@media (min-width: 768px) {
+    .faq {
+         display: flex;
+         flex-direction: row;
+         justify-content: center;
+         padding-top: 140px;
+         padding-bottom: 140px;
+
+    }
+
+    .accordion-button.collapsed {
+        font-size: 26px;
+        letter-spacing: 0.52px;
+        line-height: 31.98px;
+        text-align: left;
+        font-family: "Bebas Neue", cursive;
+    }
+
+    .accordion-button:not(.collapsed) {
+        font-size: 26px;
+        letter-spacing: 0.52px;
+        line-height: 31.98px;
+        text-align: left;
+        font-family: "Bebas Neue", cursive;
+    }
+
+    .faq__container {
+        width: 580px;
+    }
+    .faq__tittle {
+       font-size: 55px; 
+       letter-spacing: 0.96px;
+       line-height: 52.8px;
+       font-family: "Bebas Neue", cursive;
+       font-weight: 400;
+    }    
+
+    .accordion {
+        margin: 35px;
+        margin-left: 180px;
+    }
+
+    .accordion-button {
+        padding-left: 0;
+        padding-right: 20px;
+    }
+ }
+
+@media (max-width: 358px) {
+    .faq__btns-group {
+         display: flex;
+         flex-direction: column;
+         align-items: flex-start;
+         justify-content: flex-start;
+    }
+    .accordion-button.collapsed {
+        padding-left: 0;
+    }
+ }
+
+@media (min-width: 359px) {
+    .accordion-button.collapsed {
+        padding-left: 0;
+    }
 }
-
-.faq__overtittle {
-    font-size: 26px;
-    font-weight: 400;
-    line-height: 26px;
-    text-align: left;
-    text-transform: none;
-    color: var(--overtitle-color);
-    font-family: 'Satisfy', cursive;
-    box-sizing: border-box;
-    vertical-align: baseline;
-}
-
-.faq__tittle {
-    color: var(--button-text-color);
-    font-family: 'Bebas Neue', cursive;
-    font-size: 38px;
-    font-weight: 400;
-}
-
-.faq__devider {
-    background-color:var(--overtitle-color);
-    height:3px;
-    width:10%;
-    line-height: 50px;
-    margin: left;
-}
-
-.faq__textsubtitle {
-    font-family: 'Roboto', sans-serif;
-    font-size: 19px;
-    font-weight: 500;
-    line-height: 28.5px;
-    text-align: left;
-    overflow-wrap: break-word;
-    /* text-transform: none; */
-    color: var(--main-title-color);
-}
-
-.faq__textbody {
-    font-size: 17px;
-    font-weight: 400;
-    line-height: 25.5px;
-    overflow-wrap: break-word;
-    text-align: left;
-    text-transform: none;
-    vertical-align: baseline;
-    font-family: 'Roboto', sans-serif;
-    color: var(--main-title-color);
-}
-
-.faq__btns-group {
-    display: flex;
-    flex-direction:row;
-    justify-content: flex-start;
-}
-
-.faq__btn-select {
-    font-size: 15px;
-    height: 45px;
-    width: 161.641px;
-    left: 0px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-    color: var(--button-text-color);
-    letter-spacing: 0.3px;
-    text-decoration: none;
-    background-color: var(--button-background-color);
-    text-align: center;
-    border: 0;
-    line-height:15px; 
-    padding: 15px 26px 15px 26px;
-    align-self:center;
-   
-}
-
- .faq__btn-contact {
-    font-size: 15px;
-    height: 45px;
-    width: 128.875px;
-    left: 0px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-    letter-spacing: 0.3px;
-    text-decoration: none;
-    text-align: center;
-   
-    border-color: var(--button-background-color);
-    color: var(--button-background-color);
-    margin-left: 15px;
-    background-color: rgb(199, 161, 122, 0); 
-    border: 1px solid;
-    line-height: 15px;
-    padding: 15px 20px 15px 20px;
-    align-self: center;
-
-} 
-.accordion-item { 
-    background-color: transparent;
-    color: rgb(225 224 244);
-    line-height: 25.5px;
-    font-size: 17px;
-    text-align: left;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    box-sizing: border-box;
-
-}
-
-.accordion-button {
-    font-family: 'Bebas Neue', cursive;
-    font-size: 24px;
-    font-weight: 400;
-    text-align: left;
-    cursor: pointer;
-    letter-spacing: 0.48px;
-    line-height: 29.52px;
-    background-color: transparent;
-    color: var(--button-text-color);
-}
-.accordion-body {
-    color: #fff;
-    background-color: transparent;
-}
-

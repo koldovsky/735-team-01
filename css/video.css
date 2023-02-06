@@ -1,0 +1,153 @@
+.video {
+    background: linear-gradient(rgba(39, 41, 43, 0.9), rgba(39, 41, 43, 0.9)), url(../img/video-background.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 50% 50%;
+    padding: 130px 30px 130px 30px;
+
+}
+
+.video__inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.video__title {
+    color: var(--light-title-color);
+    line-height: 41.8px;
+    letter-spacing: 0.76px;
+    text-align: center;
+
+}
+
+.modal {
+    display: flex;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    background-color: var(--light-background-color);
+    border-radius: 15px;
+    padding: 1.3rem;
+    width: 85%;
+    height: 50%;
+
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(3px);
+    z-index: 1;
+
+}
+
+.hidden {
+    display: none;
+}
+
+.video__icon {
+    display: block;
+    margin-top: 8px;
+    height: 50px;
+    width: 50px;
+    color: var(--video-icon-color);
+    cursor: pointer;
+}
+
+.video__icon:hover {
+    color: var(--hover-button-background-color);
+}
+
+.video__video {
+    width: 100%;
+    height: 100%;
+}
+
+.video__btn-close {
+    transform: translate(2px, -20px);
+    cursor: pointer;
+
+}
+
+@media(min-width: 767px) {
+    .video__overtitle {
+        line-height: 24px;
+    }
+
+    .video__title {
+        letter-spacing: 1.16px;
+        line-height: 63.8px;
+    }
+}
+
+@media(min-width: 650px) {
+
+
+    .video {
+        padding-top: 205px;
+        padding-bottom: 205px;
+    }
+
+    .video__overtitle {
+        line-height: 26px;
+    }
+
+    .video__title {
+        letter-spacing: 0.96px;
+        line-height: 52.8px;
+    }
+
+    .video__icon {
+        height: 70px;
+        width: 70px;
+    }
+
+    .modal {
+        width: 560px;
+        height: 315px;
+    }
+
+}
+
+@media(min-width: 401px) {
+    .modal {
+        padding-right: 0.3rem;
+    }
+
+
+}
+
+@media(min-width: 991px) {
+    .video__overtitle {
+        line-height: 24px;
+    }
+
+    .video__btn-close {
+        font-size: 20px;
+    }
+
+    .video__title {
+        letter-spacing: 1.16px;
+        line-height: 63.8px;
+    }
+
+    .video {
+        padding-top: 280px;
+        padding-bottom: 280px;
+    }
+
+    .modal {
+        width: 800px;
+        height: 500px;
+    }
+}

@@ -1,0 +1,134 @@
+.courses {
+    background-color: #f2f0ec;
+    min-height: 900px;
+    padding-top: 6%;
+    padding-bottom: 9%;
+}
+
+.courses__overtitle {
+    font-size: 24px;
+    text-align: center;
+    text-transform: none;
+    color: var(--overtitle-color);
+    font-family: 'Satisfy', cursive;
+}
+
+.courses__title {
+    font-size: 58px;
+    text-align: center;
+    color: var(--title-color);
+    font-family: 'Bebas Neue', cursive;
+    text-transform: uppercase;
+}
+
+.courses__text {
+    margin-top: 12px;
+    font-size: 17px;
+    text-align: center;
+    color: var(--title-color);
+    font-family: 'Roboto', sans-serif;
+}
+
+.courses__slide-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    min-height: 350px;
+    position: relative;
+    top: 20px;
+    right: 15px;
+    left: 1px;
+}
+
+.item-courses__tittle{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 28px;
+    margin-top: 20px;
+}
+
+.slider-item__coureses {
+    height: 538px;
+    width: 100%;
+}
+
+.blok-mark__courses {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    padding-top: 8px;
+    padding-bottom: 15px;
+}
+
+.img__courses {
+    width: 345px;
+}
+
+.check-mark__courses {
+    display: flex;
+    align-items: center;
+    color: rgb(91,91,91);
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+.text-mark__courses {
+    color: rgb(159,159,159);
+    font-family: 'Roboto', sans-serif;
+    max-width: 345px;
+}
+
+.slick-prev {
+    left: 0;
+    width: 30px;
+    height: 30px;
+}
+
+.slick-next {
+    right: 0;
+    width: 30px;
+    height: 30px;
+}
+
+.courses__carousel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carousel-coureses__button {
+    padding-top: 30px;
+}
+
+.courses__btn-select {
+    font-size: 15px;
+    height: 45px;
+    width: 160px;
+    left: 0px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: var(--button-text-color);
+    letter-spacing: 0.3px;
+    text-decoration: none;
+    background-color: var(--button-background-color);
+    text-align: center;
+    border: 0;
+    line-height: 15px;
+    padding: 15px 24px 15px 24px;
+}
+
+.courses__btn-select:hover {
+    outline-color: transparent;
+    outline-style: solid;
+    box-shadow: 0 0 0 4px #737475;
+    transition: 0.7s;
+    background-color: #444444;
+}
+
+@media (max-width: 350px) {
+    .courses__slide-container {
+        width: 100%;
+    }
+    .img__courses {
+        width: 100%;
+    }
+}

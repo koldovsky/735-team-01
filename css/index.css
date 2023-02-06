@@ -1,10 +1,14 @@
 @import url(common.css);
 @import url(header.css);
-@import url(products.css);
-@import url(study.css);
+@import url(courses.css);
+@import url(video.css);
+@import url(about.css);
 @import url(recipes.css);
 @import url(pricing.css);
 @import url(features.css);
 @import url(testimonials.css);
 @import url(faq.css);
+@import url(products.css);
+@import url(study.css);
+@import url(colage-carousel.css);
 @import url(footer.css);
