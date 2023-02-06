@@ -22,7 +22,7 @@
                 <p>Turn each coffee you make into a masterpiece with our Latte Art Course. You will learn how to draw beautiful pictures on the foam, from simple leaves and hearts to much more complicated designs.</p>
             </div>
             <div class="carousel-coureses__button">
-                <a href="#contacts" class="carousel__btn-select button">Sign Up</a>
+                <a href="#contacts" class="courses__btn-select button">Sign Up</a>
             </div>
         </div>`,
         `<div class="slider-item__coureses active">
@@ -46,7 +46,7 @@
                 <p>If you feel that you have to be the one making wholesome coffee, this crash course will give you the basics of working with a coffee machine, barista's responsibilities, and a tour around the kitchen.</p>
             </div>
             <div class="carousel-coureses__button">
-                <a href="#contacts" class="carousel__btn-select button">Sign Up</a>
+                <a href="#contacts" class="courses__btn-select button">Sign Up</a>
             </div>
         </div>`,
         `<div class="slider-item__coureses active">
@@ -70,7 +70,7 @@
                 <p>There is always space for improvement, even if you are an experienced barista. This 2-week course will improve your skills in coffee blending and coffee shop management. It's our best course for professionals.</p>
             </div>
             <div class="carousel-coureses__button">
-                <a href="#contacts" class="carousel__btn-select button">Sign Up</a>
+                <a href="#contacts" class="courses__btn-select button">Sign Up</a>
             </div>
         </div>`,
         `<div class="slider-item__coureses active">
@@ -94,7 +94,7 @@
                 <p>If find yourself asking too much at coffee shops, try making coffee professionally yourself. Become a pro coffee maker at home and then invite your friends for a chat to impress them with your coffee.</p>
             </div>
             <div class="carousel-coureses__button">
-                <a href="#contacts" class="carousel__btn-select button">Sign Up</a>
+                <a href="#contacts" class="courses__btn-select button">Sign Up</a>
             </div>
         </div>`
     ];
@@ -104,10 +104,10 @@
     function renderSlides() {
         const slideContainer = document.querySelector('.courses__slide-container');
         slideContainer.innerHTML = coursesSlides[currentSlideIdx];
-        if (window.innerWidth >= 767) {
+        if (window.innerWidth >= 850) {
             const secondSlideIdx = currentSlideIdx + 1 >= coursesSlides.length ? 0 : currentSlideIdx + 1;
             slideContainer.innerHTML += coursesSlides[secondSlideIdx];
-            if (window.innerWidth >= 991) {
+            if (window.innerWidth >= 1250) {
                 const thirdSlideIdx = secondSlideIdx + 1 >= coursesSlides.length ? 0 : secondSlideIdx + 1;
                 slideContainer.innerHTML += coursesSlides[thirdSlideIdx];
             }
