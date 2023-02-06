@@ -33,7 +33,7 @@
     border-radius: 15px;
     padding: 1.3rem;
     width: 85%;
-    height: 48%;
+    height: 50%;
 
 }
 
@@ -90,7 +90,7 @@
     }
 }
 
-@media(min-width: 768px) {
+@media(min-width: 650px) {
 
 
     .video {
