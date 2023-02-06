@@ -113,8 +113,8 @@
         font-size: 17px;
         margin-top: 50px;
         max-width: 339px;
-        --bs-accordion-active-bg: transparent;  
-        --bs-accordion-btn-focus-border-color: transparent; 
+        --bs-accordion-active-bg: transparent;
+        --bs-accordion-btn-focus-box-shadow: none;
         
     }
 
