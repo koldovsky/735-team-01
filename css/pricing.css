@@ -57,8 +57,6 @@
     display: block;
     height: 100%;
     width: 100%;
-    /* margin-bottom: 40px; */
-    /* background-color: aqua; */
 }
 
 
@@ -196,10 +194,7 @@
         font-size: 17px;
         line-height: 25.5px;
         /* padding: 29px 29px 29px 29px; */
-    }    
-    
-    
-
+    }   
 }
 
 @media (min-width: 768px) {
